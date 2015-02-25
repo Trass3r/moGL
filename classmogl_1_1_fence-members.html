@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>moGL: Main Page</title>
+<title>moGL: Member List</title>
 
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
@@ -46,9 +46,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </script>
   <div id="navrow1" class="tabs">
     <ul class="tablist">
-      <li class="current"><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
-      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -68,13 +68,41 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       </li>
     </ul>
   </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+  <div id="nav-path" class="navpath">
+    <ul>
+      <li class="navelem"><a class="el" href="namespacemogl.html">mogl</a>      </li>
+      <li class="navelem"><a class="el" href="classmogl_1_1_fence.html">Fence</a>      </li>
+    </ul>
+  </div>
 </div>
 <div class="header">
   <div class="headertitle">
-<div class="title">moGL Documentation</div>  </div>
+<div class="title">mogl::Fence Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
-</div><!-- contents -->
+This is the complete list of members for <a class="el" href="classmogl_1_1_fence.html">mogl::Fence</a>, including all inherited members.<table>
+  <tr class="memlist"><td><a class="el" href="classmogl_1_1_handle.html#afab3ec977388c5c0f1e6df0b6a75121b">_handle</a></td><td><a class="el" href="classmogl_1_1_handle.html">mogl::Handle&lt; GLsync &gt;</a></td><td><code> [protected]</code></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmogl_1_1_fence.html#aba04408dba30a88d552cf1847f8462f8">Fence</a>(GLenum condition, GLbitfield flags)</td><td><a class="el" href="classmogl_1_1_fence.html">mogl::Fence</a></td><td><code> [inline]</code></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmogl_1_1_fence.html#a45858c6874c47d67097b589b25290b05">Fence</a>(const Fence &amp;other)</td><td><a class="el" href="classmogl_1_1_fence.html">mogl::Fence</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmogl_1_1_handle.html#a87ed3a7ba7fa12feafd63e47a3e30230">getHandle</a>() const</td><td><a class="el" href="classmogl_1_1_handle.html">mogl::Handle&lt; GLsync &gt;</a></td><td><code> [inline]</code></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmogl_1_1_handle.html#aaa2a88838f8911118044c3296f6be831">Handle</a>()</td><td><a class="el" href="classmogl_1_1_handle.html">mogl::Handle&lt; GLsync &gt;</a></td><td><code> [inline]</code></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmogl_1_1_handle.html#ad6358ba1f7c73345d35c69090d760551">Handle</a>(const Handle &amp;other)</td><td><a class="el" href="classmogl_1_1_handle.html">mogl::Handle&lt; GLsync &gt;</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmogl_1_1_fence.html#ae57bf177e04129f95b1e83635f053af9">isValid</a>() const override final</td><td><a class="el" href="classmogl_1_1_fence.html">mogl::Fence</a></td><td><code> [inline, virtual]</code></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmogl_1_1_fence.html#a1324a24661ee7fd331326cf6a91849a0">operator=</a>(const Fence &amp;other)</td><td><a class="el" href="classmogl_1_1_fence.html">mogl::Fence</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmogl_1_1_handle.html#ac6b68625385696bf931c5c72d67041a0">Handle&lt; GLsync &gt;::operator=</a>(const Handle &amp;other)</td><td><a class="el" href="classmogl_1_1_handle.html">mogl::Handle&lt; GLsync &gt;</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmogl_1_1_fence.html#a29544fd90c99a4d61dc0e717760c3511">waitClientSync</a>(GLbitfield flags, GLuint64 timeout=0)</td><td><a class="el" href="classmogl_1_1_fence.html">mogl::Fence</a></td><td><code> [inline]</code></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmogl_1_1_fence.html#a305b402da9114068beaf89b9c40a35f9">waitSync</a>(GLbitfield flags, GLuint64 timeout=0)</td><td><a class="el" href="classmogl_1_1_fence.html">mogl::Fence</a></td><td><code> [inline]</code></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmogl_1_1_fence.html#acd0e6a7a81dd3a8853a0241cff8a2ea9">~Fence</a>()</td><td><a class="el" href="classmogl_1_1_fence.html">mogl::Fence</a></td><td><code> [inline]</code></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmogl_1_1_handle.html#a068fff534ee594f5131614c5f45917b5">~Handle</a>()</td><td><a class="el" href="classmogl_1_1_handle.html">mogl::Handle&lt; GLsync &gt;</a></td><td></td></tr>
+</table></div><!-- contents -->
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
