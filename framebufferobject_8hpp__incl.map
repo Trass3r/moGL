@@ -1,8 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$handle_8hpp.html" title="GL Handle wrapper, base class to most mogl objects, templated on the handle type, because it is not a..." alt="" coords="237,160,355,189"/>
-<area shape="rect" id="node5" href="$renderbufferobject_8hpp.html" title="RenderBuffer object OO wrapper using OpenGL 4.5 DSA features." alt="" coords="5,83,261,112"/>
-<area shape="rect" id="node10" href="$textureobject_8hpp.html" title="Texture object OO wrapper using OpenGL 4.5 DSA features." alt="" coords="336,83,533,112"/>
-<area shape="rect" id="node15" href="$framebufferobject_8inl.html" title="framebufferobject.inl" alt="" coords="557,83,696,112"/>
-<area shape="rect" id="node8" href="$renderbufferobject_8inl.html" title="renderbufferobject.inl" alt="" coords="63,160,204,189"/>
-<area shape="rect" id="node13" href="$textureobject_8inl.html" title="textureobject.inl" alt="" coords="379,160,493,189"/>
-</map>

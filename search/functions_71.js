@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['queryobject',['QueryObject',['../classmogl_1_1_query_object.html#a0e83b790b62b1468095a9818a9132c10',1,'mogl::QueryObject::QueryObject(GLenum type)'],['../classmogl_1_1_query_object.html#a903abe8185db4cd3eb3230ad158457b7',1,'mogl::QueryObject::QueryObject(const QueryObject &amp;other)'],['../classmogl_1_1_query_object.html#a5def565507ef97293a96b048e1598f92',1,'mogl::QueryObject::QueryObject(QueryObject &amp;&amp;other)']]]
+  ['query',['Query',['../classmogl_1_1_query.html#a3176ae17d8ed3680a47ccabc5d7f7dcb',1,'mogl::Query::Query(GLenum type)'],['../classmogl_1_1_query.html#ab4b355f9a12925bf9f556fc330ecf5e4',1,'mogl::Query::Query(const Query &amp;other)'],['../classmogl_1_1_query.html#a5144dc8cf9ad16a7ef5e3df92e335257',1,'mogl::Query::Query(Query &amp;&amp;other)']]]
 ];

@@ -131,8 +131,8 @@ Classes</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_shader_program.html#a4a0ae25d3db4a732933f80100557df84">ShaderProgram</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_shader_program.html#ab5f7ff1d6e28055d0d06401f393c7978">~ShaderProgram</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_shader_program.html#a61281e2c7fe29ea390e8fd7d996cd0a0">attach</a> (const <a class="el" href="classmogl_1_1_shader_object.html">ShaderObject</a> &amp;object)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_shader_program.html#a9f2d75c44d10f6f3c59d38361a7fe59a">detach</a> (const <a class="el" href="classmogl_1_1_shader_object.html">ShaderObject</a> &amp;object)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_shader_program.html#ac54016905bf239fd15e966f865ff0501">attach</a> (const <a class="el" href="classmogl_1_1_shader.html">Shader</a> &amp;object)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_shader_program.html#a51666dc24a173fd8d52c5c785526d181">detach</a> (const <a class="el" href="classmogl_1_1_shader.html">Shader</a> &amp;object)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_shader_program.html#ad9fdad4038a9453dffdeafd03bca0366">bindAttribLocation</a> (GLuint location, const std::string &amp;attribute)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_shader_program.html#ad34782e99d14232bba1285d087e6eb37">link</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_shader_program.html#a8712c83fa855605009fe0af3121087ee">use</a> ()</td></tr>
@@ -155,7 +155,7 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classmogl_1_1_shader_program.html#af4d9a5135516b0f2b8054cd24762d98e">setUniformMatrixPtr</a> (const std::string &amp;name, const T *ptr, GLboolean transpose=GL_FALSE, GLsizei count=1)</td></tr>
 <tr><td class="memTemplParams" colspan="2">template&lt;std::size_t Size, class T &gt; </td></tr>
 <tr><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classmogl_1_1_shader_program.html#adfec52a7c8eff37a5af845afac910d2b">setUniformMatrixPtr</a> (const std::string &amp;name, const T *ptr, GLboolean transpose=GL_FALSE, GLsizei count=1)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_shader_program.html#a141f0366528735d73a8385f833429778">setUniformSubroutine</a> (<a class="el" href="classmogl_1_1_shader_object.html#a77ef67f7af05d5f74923bbd6444a9014">ShaderObject::ShaderType</a> type, const std::string &amp;uniform, const std::string &amp;subroutine)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_shader_program.html#a35155ee8ed1aa92bb9b252cbfe2f200e">setUniformSubroutine</a> (<a class="el" href="classmogl_1_1_shader.html#a7b78d1b99bdd590a7ae62d4678c644a1">Shader::Type</a> type, const std::string &amp;uniform, const std::string &amp;subroutine)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_shader_program.html#a16ef7db56935ad4b248f8bd0397d2eb7">printDebug</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_shader_program.html#a8ee5bcb68b1133c26accee82e5777bec">get</a> (GLenum property, GLint *value)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">GLint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_shader_program.html#a371c2a05280b4c569fb657f8b25c28f5">get</a> (GLenum property)</td></tr>
@@ -268,14 +268,14 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/><h2>Member Function Documentation</h2>
-<a class="anchor" id="a61281e2c7fe29ea390e8fd7d996cd0a0"></a><!-- doxytag: member="mogl::ShaderProgram::attach" ref="a61281e2c7fe29ea390e8fd7d996cd0a0" args="(const ShaderObject &amp;object)" -->
+<a class="anchor" id="ac54016905bf239fd15e966f865ff0501"></a><!-- doxytag: member="mogl::ShaderProgram::attach" ref="ac54016905bf239fd15e966f865ff0501" args="(const Shader &amp;object)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classmogl_1_1_shader_program.html#a61281e2c7fe29ea390e8fd7d996cd0a0">mogl::ShaderProgram::attach</a> </td>
+          <td class="memname">void <a class="el" href="classmogl_1_1_shader_program.html#ac54016905bf239fd15e966f865ff0501">mogl::ShaderProgram::attach</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classmogl_1_1_shader_object.html">ShaderObject</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classmogl_1_1_shader.html">Shader</a> &amp;&#160;</td>
           <td class="paramname"><em>object</em></td><td>)</td>
           <td><code> [inline]</code></td>
         </tr>
@@ -312,14 +312,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9f2d75c44d10f6f3c59d38361a7fe59a"></a><!-- doxytag: member="mogl::ShaderProgram::detach" ref="a9f2d75c44d10f6f3c59d38361a7fe59a" args="(const ShaderObject &amp;object)" -->
+<a class="anchor" id="a51666dc24a173fd8d52c5c785526d181"></a><!-- doxytag: member="mogl::ShaderProgram::detach" ref="a51666dc24a173fd8d52c5c785526d181" args="(const Shader &amp;object)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classmogl_1_1_shader_program.html#a9f2d75c44d10f6f3c59d38361a7fe59a">mogl::ShaderProgram::detach</a> </td>
+          <td class="memname">void <a class="el" href="classmogl_1_1_shader_program.html#a51666dc24a173fd8d52c5c785526d181">mogl::ShaderProgram::detach</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classmogl_1_1_shader_object.html">ShaderObject</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classmogl_1_1_shader.html">Shader</a> &amp;&#160;</td>
           <td class="paramname"><em>object</em></td><td>)</td>
           <td><code> [inline]</code></td>
         </tr>
@@ -2137,14 +2137,14 @@ template&lt;&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a141f0366528735d73a8385f833429778"></a><!-- doxytag: member="mogl::ShaderProgram::setUniformSubroutine" ref="a141f0366528735d73a8385f833429778" args="(ShaderObject::ShaderType type, const std::string &amp;uniform, const std::string &amp;subroutine)" -->
+<a class="anchor" id="a35155ee8ed1aa92bb9b252cbfe2f200e"></a><!-- doxytag: member="mogl::ShaderProgram::setUniformSubroutine" ref="a35155ee8ed1aa92bb9b252cbfe2f200e" args="(Shader::Type type, const std::string &amp;uniform, const std::string &amp;subroutine)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classmogl_1_1_shader_program.html#a141f0366528735d73a8385f833429778">mogl::ShaderProgram::setUniformSubroutine</a> </td>
+          <td class="memname">void <a class="el" href="classmogl_1_1_shader_program.html#a35155ee8ed1aa92bb9b252cbfe2f200e">mogl::ShaderProgram::setUniformSubroutine</a> </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classmogl_1_1_shader_object.html#a77ef67f7af05d5f74923bbd6444a9014">ShaderObject::ShaderType</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classmogl_1_1_shader.html#a7b78d1b99bdd590a7ae62d4678c644a1">Shader::Type</a>&#160;</td>
           <td class="paramname"><em>type</em>, </td>
         </tr>
         <tr>
@@ -2289,8 +2289,8 @@ template&lt;&gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>mogl/shader/<a class="el" href="shaderprogram_8hpp_source.html">shaderprogram.hpp</a></li>
-<li>mogl/shader/<a class="el" href="shaderprogram_8inl.html">shaderprogram.inl</a></li>
+<li>shader/<a class="el" href="shaderprogram_8hpp_source.html">shaderprogram.hpp</a></li>
+<li>shader/<a class="el" href="shaderprogram_8inl.html">shaderprogram.inl</a></li>
 </ul>
 </div><!-- contents -->
 <!-- window showing the filter options -->
@@ -2310,7 +2310,7 @@ template&lt;&gt; </div>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Feb 26 2015 11:01:34 for moGL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Feb 26 2015 17:29:43 for moGL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>

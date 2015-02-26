@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$renderbufferobject_8hpp.html" title="RenderBuffer object OO wrapper using OpenGL 4.5 DSA features." alt="" coords="85,83,341,112"/>
-<area shape="rect" id="node5" href="$framebufferobject_8hpp.html" title="Framebuffer object OO wrapper using OpenGL 4.5 DSA features." alt="" coords="5,160,256,189"/>
-<area shape="rect" id="node11" href="$renderbuffer_8hpp.html" title="mogl/renderbuffer.hpp" alt="" coords="225,237,372,267"/>
-<area shape="rect" id="node7" href="$framebuffer_8hpp.html" title="mogl/framebuffer.hpp" alt="" coords="57,237,201,267"/>
-<area shape="rect" id="node9" href="$mogl_8hpp.html" title="mogl/mogl.hpp" alt="" coords="160,315,267,344"/>
-</map>

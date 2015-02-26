@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['computeshader',['ComputeShader',['../classmogl_1_1_shader_object.html#a77ef67f7af05d5f74923bbd6444a9014ad77918e65eb926a577b13d92d345add5',1,'mogl::ShaderObject']]]
+  ['computeshader',['ComputeShader',['../classmogl_1_1_shader.html#a7b78d1b99bdd590a7ae62d4678c644a1a8c63bba5e392cceb70dcb0c221b989a5',1,'mogl::Shader']]]
 ];

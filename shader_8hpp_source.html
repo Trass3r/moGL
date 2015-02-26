@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>moGL: mogl/shader.hpp Source File</title>
+<title>moGL: shader/shader.hpp Source File</title>
 
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
@@ -77,7 +77,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 <div class="header">
   <div class="headertitle">
-<div class="title">mogl/shader.hpp</div>  </div>
+<div class="title">shader/shader.hpp</div>  </div>
 </div><!--header-->
 <div class="contents">
 <a href="shader_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 
@@ -93,10 +93,53 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l00011"></a>00011 <span class="preprocessor">#ifndef MOGL_SHADER_INCLUDED</span>
 <a name="l00012"></a>00012 <span class="preprocessor"></span><span class="preprocessor">#define MOGL_SHADER_INCLUDED</span>
 <a name="l00013"></a>00013 <span class="preprocessor"></span>
-<a name="l00014"></a>00014 <span class="preprocessor">#include &quot;<a class="code" href="shaderobject_8hpp.html">shader/shaderobject.hpp</a>&quot;</span>
-<a name="l00015"></a>00015 <span class="preprocessor">#include &quot;<a class="code" href="shaderprogram_8hpp.html">shader/shaderprogram.hpp</a>&quot;</span>
-<a name="l00016"></a>00016 
-<a name="l00017"></a>00017 <span class="preprocessor">#endif // MOGL_SHADER_INCLUDED</span>
+<a name="l00014"></a>00014 <span class="preprocessor">#include &lt;string&gt;</span>
+<a name="l00015"></a>00015 
+<a name="l00016"></a>00016 <span class="preprocessor">#include &lt;<a class="code" href="handle_8hpp.html" title="GL Handle wrapper, base class to most mogl objects, templated on the handle type, because it is not a...">mogl/handle.hpp</a>&gt;</span>
+<a name="l00017"></a>00017 
+<a name="l00018"></a>00018 <span class="keyword">namespace </span>mogl
+<a name="l00019"></a>00019 {
+<a name="l00020"></a><a class="code" href="classmogl_1_1_shader.html">00020</a>     <span class="keyword">class </span><a class="code" href="classmogl_1_1_shader.html">Shader</a> : <span class="keyword">public</span> <a class="code" href="classmogl_1_1_handle.html">Handle</a>&lt;GLuint&gt;
+<a name="l00021"></a>00021     {
+<a name="l00022"></a>00022     <span class="keyword">public</span>:
+<a name="l00023"></a><a class="code" href="classmogl_1_1_shader.html#a7b78d1b99bdd590a7ae62d4678c644a1">00023</a>         <span class="keyword">enum class</span> <a class="code" href="classmogl_1_1_shader.html#a7b78d1b99bdd590a7ae62d4678c644a1">Type</a> {
+<a name="l00024"></a><a class="code" href="classmogl_1_1_shader.html#a7b78d1b99bdd590a7ae62d4678c644a1a08d59a554c8649947b7f128986c2c617">00024</a>             <a class="code" href="classmogl_1_1_shader.html#a7b78d1b99bdd590a7ae62d4678c644a1a08d59a554c8649947b7f128986c2c617">VertexShader</a>                = GL_VERTEX_SHADER,
+<a name="l00025"></a><a class="code" href="classmogl_1_1_shader.html#a7b78d1b99bdd590a7ae62d4678c644a1a5e85926a0d81fab591559bd381aa8208">00025</a>             <a class="code" href="classmogl_1_1_shader.html#a7b78d1b99bdd590a7ae62d4678c644a1a5e85926a0d81fab591559bd381aa8208">TesselationControlShader</a>    = GL_TESS_CONTROL_SHADER,
+<a name="l00026"></a><a class="code" href="classmogl_1_1_shader.html#a7b78d1b99bdd590a7ae62d4678c644a1aea0e80b456958962b7152d8adc76e2b2">00026</a>             <a class="code" href="classmogl_1_1_shader.html#a7b78d1b99bdd590a7ae62d4678c644a1aea0e80b456958962b7152d8adc76e2b2">TesselationEvaluationShader</a> = GL_TESS_EVALUATION_SHADER,
+<a name="l00027"></a><a class="code" href="classmogl_1_1_shader.html#a7b78d1b99bdd590a7ae62d4678c644a1a4a6059b020e07cf50f7990a37c3220a7">00027</a>             <a class="code" href="classmogl_1_1_shader.html#a7b78d1b99bdd590a7ae62d4678c644a1a4a6059b020e07cf50f7990a37c3220a7">GeometryShader</a>              = GL_GEOMETRY_SHADER,
+<a name="l00028"></a><a class="code" href="classmogl_1_1_shader.html#a7b78d1b99bdd590a7ae62d4678c644a1a776c7c4f7a44adbceeaefba0a8799e76">00028</a>             <a class="code" href="classmogl_1_1_shader.html#a7b78d1b99bdd590a7ae62d4678c644a1a776c7c4f7a44adbceeaefba0a8799e76">FragmentShader</a>              = GL_FRAGMENT_SHADER,
+<a name="l00029"></a><a class="code" href="classmogl_1_1_shader.html#a7b78d1b99bdd590a7ae62d4678c644a1a8c63bba5e392cceb70dcb0c221b989a5">00029</a>             <a class="code" href="classmogl_1_1_shader.html#a7b78d1b99bdd590a7ae62d4678c644a1a8c63bba5e392cceb70dcb0c221b989a5">ComputeShader</a>               = GL_COMPUTE_SHADER
+<a name="l00030"></a>00030         };
+<a name="l00031"></a>00031 
+<a name="l00032"></a>00032     <span class="keyword">public</span>:
+<a name="l00033"></a>00033         <a class="code" href="classmogl_1_1_shader.html#a5fb558599cb6513b86daafe4fcefc5e5">Shader</a>(std::istream&amp; sourceFile, <a class="code" href="classmogl_1_1_shader.html#a7b78d1b99bdd590a7ae62d4678c644a1">Type</a> type);
+<a name="l00034"></a>00034         <a class="code" href="classmogl_1_1_shader.html#a5fb558599cb6513b86daafe4fcefc5e5">Shader</a>(std::string&amp; sourceCode, <a class="code" href="classmogl_1_1_shader.html#a7b78d1b99bdd590a7ae62d4678c644a1">Type</a> type);
+<a name="l00035"></a>00035         <a class="code" href="classmogl_1_1_shader.html#a5dbd3824c35384cbc88854b783c5316d">~Shader</a>();
+<a name="l00036"></a>00036 
+<a name="l00037"></a>00037         <a class="code" href="classmogl_1_1_shader.html#a5fb558599cb6513b86daafe4fcefc5e5">Shader</a>(<span class="keyword">const</span> <a class="code" href="classmogl_1_1_shader.html">Shader</a>&amp; other) = <span class="keyword">delete</span>;
+<a name="l00038"></a>00038         <a class="code" href="classmogl_1_1_shader.html">Shader</a>&amp; <a class="code" href="classmogl_1_1_shader.html#a2410eb50ac7a5edd6102e08fda16a8a2">operator=</a>(<span class="keyword">const</span> <a class="code" href="classmogl_1_1_shader.html">Shader</a>&amp; other) = <span class="keyword">delete</span>;
+<a name="l00039"></a>00039 
+<a name="l00040"></a>00040     <span class="keyword">public</span>:
+<a name="l00041"></a>00041         <span class="keywordtype">bool</span>                <a class="code" href="classmogl_1_1_shader.html#ae088b575a5864b0725175101a251f68f">compile</a>();
+<a name="l00042"></a>00042         <span class="keyword">const</span> std::string&amp;  <a class="code" href="classmogl_1_1_shader.html#a48d74465d6a5873e8852de9b225ca215">getCode</a>() <span class="keyword">const</span>;
+<a name="l00043"></a>00043         <a class="code" href="classmogl_1_1_shader.html#a7b78d1b99bdd590a7ae62d4678c644a1">Type</a>                <a class="code" href="classmogl_1_1_shader.html#a40498455a6fff6422617b206ecd0e1ec">getType</a>() <span class="keyword">const</span>;
+<a name="l00044"></a>00044         <span class="keyword">const</span> std::string&amp;  <a class="code" href="classmogl_1_1_shader.html#acf449f4551a722b96ea6b95898cd1ee6">getLog</a>() <span class="keyword">const</span>;
+<a name="l00045"></a>00045         <span class="keywordtype">void</span>                <span class="keyword">get</span>(GLenum property, GLint* value); <span class="comment">// Direct call to glGetShaderiv()</span>
+<a name="l00046"></a>00046         GLint               <span class="keyword">get</span>(GLenum property);
+<a name="l00047"></a>00047         <span class="keywordtype">bool</span>                <a class="code" href="classmogl_1_1_shader.html#a32a239fe522c4ed1369bb69388ba462e">isCompiled</a>() <span class="keyword">const</span>;
+<a name="l00048"></a>00048         <span class="keywordtype">bool</span>                <a class="code" href="classmogl_1_1_shader.html#ae379e82c2566aef209e4ba8ce2884ac5">isValid</a>() const override final;
+<a name="l00049"></a>00049 
+<a name="l00050"></a>00050     private:
+<a name="l00051"></a>00051         std::<span class="keywordtype">string</span> _code;
+<a name="l00052"></a>00052         <a class="code" href="classmogl_1_1_shader.html#a7b78d1b99bdd590a7ae62d4678c644a1">Type</a>        _type;
+<a name="l00053"></a>00053         std::<span class="keywordtype">string</span> _log;
+<a name="l00054"></a>00054         <span class="keywordtype">bool</span>        _isCompiled;
+<a name="l00055"></a>00055     };
+<a name="l00056"></a>00056 }
+<a name="l00057"></a>00057 
+<a name="l00058"></a>00058 <span class="preprocessor">#include &quot;shader.inl&quot;</span>
+<a name="l00059"></a>00059 <span class="preprocessor"></span>
+<a name="l00060"></a>00060 <span class="preprocessor">#endif // MOGL_SHADER_INCLUDED</span>
 </pre></div></div><!-- contents -->
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
@@ -115,7 +158,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Feb 26 2015 11:01:34 for moGL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Feb 26 2015 17:29:43 for moGL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>

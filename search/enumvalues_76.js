@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['vertexshader',['VertexShader',['../classmogl_1_1_shader_object.html#a77ef67f7af05d5f74923bbd6444a9014a7564c7da2d957841ceaace419e0cad91',1,'mogl::ShaderObject']]]
+  ['vertexshader',['VertexShader',['../classmogl_1_1_shader.html#a7b78d1b99bdd590a7ae62d4678c644a1a08d59a554c8649947b7f128986c2c617',1,'mogl::Shader']]]
 ];

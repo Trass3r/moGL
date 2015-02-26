@@ -1,11 +1,10 @@
 var searchData=
 [
-  ['begin',['begin',['../classmogl_1_1_transform_feedback_object.html#a95027ac2d2aecf705fa62ed91f678c64',1,'mogl::TransformFeedbackObject::begin()'],['../classmogl_1_1_query_object.html#ae969d64316af5f33cf8eedb5c4002004',1,'mogl::QueryObject::begin()']]],
-  ['bind',['bind',['../classmogl_1_1_buffer_object.html#a844727c40cb20ec4499704805fbdc711',1,'mogl::BufferObject::bind()'],['../classmogl_1_1_transform_feedback_object.html#ac4e326402a14f971fb8699955b92aac6',1,'mogl::TransformFeedbackObject::bind()'],['../classmogl_1_1_vertex_array_object.html#aa444cf346e15d5279ab934ccca5ee67b',1,'mogl::VertexArrayObject::bind()'],['../classmogl_1_1_frame_buffer_object.html#adb5fe1ab1afb356c3b4dfd98b4807240',1,'mogl::FrameBufferObject::bind()'],['../classmogl_1_1_sampler.html#adb7ef189243ec9024646aef29c31b3d2',1,'mogl::Sampler::bind()'],['../classmogl_1_1_texture_object.html#a756c30030f79ae140ddde0d861d08709',1,'mogl::TextureObject::bind()']]],
+  ['begin',['begin',['../classmogl_1_1_transform_feedback.html#a22b6008eae5f1e52fe12d7ca214cda9b',1,'mogl::TransformFeedback::begin()'],['../classmogl_1_1_query.html#ac13b6f8121379357cba856a8dfa3e151',1,'mogl::Query::begin()']]],
+  ['bind',['bind',['../classmogl_1_1_buffer.html#a60a8dad159087c8d63ab75120ccab75c',1,'mogl::Buffer::bind()'],['../classmogl_1_1_transform_feedback.html#ae3cd73d4c006de311d24d01a3fe0a865',1,'mogl::TransformFeedback::bind()'],['../classmogl_1_1_vertex_array.html#ae9923ba20733ee50c20de71d41df5680',1,'mogl::VertexArray::bind()'],['../classmogl_1_1_frame_buffer.html#a99f9b2fb94bb10fee71010a79f264dbc',1,'mogl::FrameBuffer::bind()'],['../classmogl_1_1_sampler.html#adb7ef189243ec9024646aef29c31b3d2',1,'mogl::Sampler::bind()'],['../classmogl_1_1_texture.html#a5f0404a60010a4fdbaa6aca3146e2133',1,'mogl::Texture::bind()']]],
   ['bindattriblocation',['bindAttribLocation',['../classmogl_1_1_shader_program.html#ad9fdad4038a9453dffdeafd03bca0366',1,'mogl::ShaderProgram']]],
+  ['buffer',['Buffer',['../classmogl_1_1_buffer.html',1,'mogl']]],
+  ['buffer',['Buffer',['../classmogl_1_1_buffer.html#a76975bcd5ad0b50bf920e1d1d82ffae7',1,'mogl::Buffer::Buffer(GLenum target)'],['../classmogl_1_1_buffer.html#ab66910f353902a124a87799ce15c45db',1,'mogl::Buffer::Buffer(const Buffer &amp;other)'],['../classmogl_1_1_buffer.html#a6ec092fe84386e3c111a35ad6ceef341',1,'mogl::Buffer::Buffer(Buffer &amp;&amp;other)']]],
   ['buffer_2ehpp',['buffer.hpp',['../buffer_8hpp.html',1,'']]],
-  ['bufferobject',['BufferObject',['../classmogl_1_1_buffer_object.html',1,'mogl']]],
-  ['bufferobject',['BufferObject',['../classmogl_1_1_buffer_object.html#a012e5a0252f4621a08bf634a6445adb8',1,'mogl::BufferObject::BufferObject(GLenum target)'],['../classmogl_1_1_buffer_object.html#abda73f82c9be380ab754b7651861ee87',1,'mogl::BufferObject::BufferObject(const BufferObject &amp;other)'],['../classmogl_1_1_buffer_object.html#a46b7cea3f194464e2a65727c2f71df7d',1,'mogl::BufferObject::BufferObject(BufferObject &amp;&amp;other)']]],
-  ['bufferobject_2ehpp',['bufferobject.hpp',['../bufferobject_8hpp.html',1,'']]],
-  ['bufferobject_2einl',['bufferobject.inl',['../bufferobject_8inl.html',1,'']]]
+  ['buffer_2einl',['buffer.inl',['../buffer_8inl.html',1,'']]]
 ];

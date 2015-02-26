@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['renderbufferobject',['RenderBufferObject',['../classmogl_1_1_render_buffer_object.html#a29d10e007de0e78fec2c3b49cc06847d',1,'mogl::RenderBufferObject::RenderBufferObject()'],['../classmogl_1_1_render_buffer_object.html#a36749fee6b8687a01d9f6b27cd455b77',1,'mogl::RenderBufferObject::RenderBufferObject(const RenderBufferObject &amp;other)'],['../classmogl_1_1_render_buffer_object.html#a5b5667cb367a11228f638152a1c66962',1,'mogl::RenderBufferObject::RenderBufferObject(RenderBufferObject &amp;&amp;other)']]],
-  ['resume',['resume',['../classmogl_1_1_transform_feedback_object.html#a1203ffe94a59a174366ec99a18df7636',1,'mogl::TransformFeedbackObject']]]
+  ['renderbuffer',['RenderBuffer',['../classmogl_1_1_render_buffer.html#a058573b7e29f7071dfe364a646eeb115',1,'mogl::RenderBuffer::RenderBuffer()'],['../classmogl_1_1_render_buffer.html#ae632af937020f27e1320552e3a6b5d05',1,'mogl::RenderBuffer::RenderBuffer(const RenderBuffer &amp;other)'],['../classmogl_1_1_render_buffer.html#a10e257ddfeed47ff6856e7c7fa88bc45',1,'mogl::RenderBuffer::RenderBuffer(RenderBuffer &amp;&amp;other)']]],
+  ['resume',['resume',['../classmogl_1_1_transform_feedback.html#a2fc5f0b9673422dbd64513b38fc1926c',1,'mogl::TransformFeedback']]]
 ];

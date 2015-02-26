@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['queryobject',['QueryObject',['../classmogl_1_1_query_object.html',1,'mogl']]]
+  ['query',['Query',['../classmogl_1_1_query.html',1,'mogl']]]
 ];

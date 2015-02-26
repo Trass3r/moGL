@@ -1,6 +1,6 @@
 var searchData=
 [
   ['enable',['enable',['../namespacemogl.html#a5daff8da41d90fe1002bd51422ec711c',1,'mogl']]],
-  ['enableattrib',['enableAttrib',['../classmogl_1_1_vertex_array_object.html#a85df8d10a3591415e4477b0184421838',1,'mogl::VertexArrayObject']]],
-  ['end',['end',['../classmogl_1_1_transform_feedback_object.html#a828ccdf2b1b8d3a8759d46ba44091e17',1,'mogl::TransformFeedbackObject::end()'],['../classmogl_1_1_query_object.html#a82c3db4f4d3a1a8769159578abf8f4fa',1,'mogl::QueryObject::end()']]]
+  ['enableattrib',['enableAttrib',['../classmogl_1_1_vertex_array.html#a15828d4d942784d68c1e838ce21a24f0',1,'mogl::VertexArray']]],
+  ['end',['end',['../classmogl_1_1_transform_feedback.html#ab45d294e95d7e7b77cc8478a3518005b',1,'mogl::TransformFeedback::end()'],['../classmogl_1_1_query.html#a4319ca9063fbd65b4ddbf09d2504bab0',1,'mogl::Query::end()']]]
 ];
