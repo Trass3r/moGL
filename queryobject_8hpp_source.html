@@ -28,7 +28,7 @@
   
   <td style="padding-left: 0.5em;">
    <div id="projectname">moGL
-   &#160;<span id="projectnumber">-travis/doxygen</span>
+   &#160;<span id="projectnumber">-develop</span>
    </div>
    <div id="projectbrief">Modern OpenGL wrapper, thin C++14 header-only layer on top of the OpenGL 4.5+ API</div>
   </td>
@@ -108,21 +108,24 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l00026"></a>00026         <a class="code" href="classmogl_1_1_query_object.html#a0e83b790b62b1468095a9818a9132c10">QueryObject</a>(<span class="keyword">const</span> <a class="code" href="classmogl_1_1_query_object.html">QueryObject</a>&amp; other) = <span class="keyword">delete</span>;
 <a name="l00027"></a>00027         <a class="code" href="classmogl_1_1_query_object.html">QueryObject</a>&amp; <a class="code" href="classmogl_1_1_query_object.html#a2b56a3fc806ba18d40df560c5cd121ba">operator=</a>(<span class="keyword">const</span> <a class="code" href="classmogl_1_1_query_object.html">QueryObject</a>&amp; other) = <span class="keyword">delete</span>;
 <a name="l00028"></a>00028 
-<a name="l00029"></a>00029     <span class="keyword">public</span>:
-<a name="l00030"></a>00030         <span class="keywordtype">void</span>    <a class="code" href="classmogl_1_1_query_object.html#ae969d64316af5f33cf8eedb5c4002004">begin</a>();
-<a name="l00031"></a>00031         <span class="keywordtype">void</span>    <a class="code" href="classmogl_1_1_query_object.html#a82c3db4f4d3a1a8769159578abf8f4fa">end</a>();
-<a name="l00032"></a>00032         <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;
-<a name="l00033"></a>00033         T       <a class="code" href="classmogl_1_1_query_object.html#a7e661967edc516885dc34e4cde0a5c64">getResult</a>(GLenum param);
-<a name="l00034"></a>00034         <span class="keywordtype">bool</span>    <a class="code" href="classmogl_1_1_query_object.html#a1fe5dae25849a9a4abd10e08de8bc88b">isValid</a>() <span class="keyword">const</span> <span class="keyword">override</span> <span class="keyword">final</span>;
-<a name="l00035"></a>00035 
-<a name="l00036"></a>00036     <span class="keyword">private</span>:
-<a name="l00037"></a>00037         GLenum  _type;
-<a name="l00038"></a>00038     };
-<a name="l00039"></a>00039 }
-<a name="l00040"></a>00040 
-<a name="l00041"></a>00041 <span class="preprocessor">#include &quot;<a class="code" href="queryobject_8inl.html">queryobject.inl</a>&quot;</span>
-<a name="l00042"></a>00042 
-<a name="l00043"></a>00043 <span class="preprocessor">#endif // MOGL_QUERYOBJECT_INCLUDED</span>
+<a name="l00029"></a>00029         <a class="code" href="classmogl_1_1_query_object.html#a0e83b790b62b1468095a9818a9132c10">QueryObject</a>(<a class="code" href="classmogl_1_1_query_object.html">QueryObject</a>&amp;&amp; other) = <span class="keywordflow">default</span>;
+<a name="l00030"></a>00030 
+<a name="l00031"></a>00031     <span class="keyword">public</span>:
+<a name="l00032"></a>00032         <span class="keywordtype">void</span>    <a class="code" href="classmogl_1_1_query_object.html#ae969d64316af5f33cf8eedb5c4002004">begin</a>();
+<a name="l00033"></a>00033         <span class="keywordtype">void</span>    <a class="code" href="classmogl_1_1_query_object.html#a82c3db4f4d3a1a8769159578abf8f4fa">end</a>();
+<a name="l00034"></a>00034         <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;
+<a name="l00035"></a>00035         T       <a class="code" href="classmogl_1_1_query_object.html#a7e661967edc516885dc34e4cde0a5c64">getResult</a>(GLenum param);
+<a name="l00036"></a>00036         GLenum  <a class="code" href="classmogl_1_1_query_object.html#ac0a059a6c0a1689ff07e984cce7f237b">getType</a>() <span class="keyword">const</span>;
+<a name="l00037"></a>00037         <span class="keywordtype">bool</span>    <a class="code" href="classmogl_1_1_query_object.html#a1fe5dae25849a9a4abd10e08de8bc88b">isValid</a>() <span class="keyword">const</span> <span class="keyword">override</span> <span class="keyword">final</span>;
+<a name="l00038"></a>00038 
+<a name="l00039"></a>00039     <span class="keyword">private</span>:
+<a name="l00040"></a>00040         <span class="keyword">const</span> GLenum    _type;
+<a name="l00041"></a>00041     };
+<a name="l00042"></a>00042 }
+<a name="l00043"></a>00043 
+<a name="l00044"></a>00044 <span class="preprocessor">#include &quot;<a class="code" href="queryobject_8inl.html">queryobject.inl</a>&quot;</span>
+<a name="l00045"></a>00045 
+<a name="l00046"></a>00046 <span class="preprocessor">#endif // MOGL_QUERYOBJECT_INCLUDED</span>
 </pre></div></div><!-- contents -->
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
@@ -141,7 +144,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 25 2015 23:45:43 for moGL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Feb 26 2015 10:21:16 for moGL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>

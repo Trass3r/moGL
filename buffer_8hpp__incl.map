@@ -1,9 +1,9 @@
 <map id="G" name="G">
 <area shape="rect" id="node3" href="$bufferobject_8hpp.html" title="Buffer object OO wrapper using OpenGL 4.5 DSA features." alt="" coords="528,83,712,112"/>
-<area shape="rect" id="node10" href="$vertexarrayobject_8hpp.html" title="VAO object OO wrapper using OpenGL 4.5 DSA features." alt="" coords="5,83,221,112"/>
-<area shape="rect" id="node16" href="$transformfeedbackobject_8hpp.html" title="mogl/buffer/transformfeedbackobject.hpp" alt="" coords="245,83,504,112"/>
-<area shape="rect" id="node5" href="$handle_8hpp.html" title="GL Handle wrapper, base class to most mogl objects, templated on the handle type, because it is not a..." alt="" coords="207,160,324,189"/>
+<area shape="rect" id="node9" href="$vertexarrayobject_8hpp.html" title="VAO object OO wrapper using OpenGL 4.5 DSA features." alt="" coords="5,83,221,112"/>
+<area shape="rect" id="node14" href="$transformfeedbackobject_8hpp.html" title="mogl/buffer/transformfeedbackobject.hpp" alt="" coords="245,83,504,112"/>
+<area shape="rect" id="node5" href="$handle_8hpp.html" title="GL Handle wrapper, base class to most mogl objects, templated on the handle type, because it is not a..." alt="" coords="213,160,331,189"/>
 <area shape="rect" id="node7" href="$bufferobject_8inl.html" title="bufferobject.inl" alt="" coords="567,160,673,189"/>
-<area shape="rect" id="node13" href="$vertexarrayobject_8inl.html" title="vertexarrayobject.inl" alt="" coords="44,160,183,189"/>
-<area shape="rect" id="node19" href="$transformfeedbackobject_8inl.html" title="transformfeedbackobject.inl" alt="" coords="348,160,529,189"/>
+<area shape="rect" id="node12" href="$vertexarrayobject_8inl.html" title="vertexarrayobject.inl" alt="" coords="44,160,183,189"/>
+<area shape="rect" id="node17" href="$transformfeedbackobject_8inl.html" title="transformfeedbackobject.inl" alt="" coords="355,160,536,189"/>
 </map>

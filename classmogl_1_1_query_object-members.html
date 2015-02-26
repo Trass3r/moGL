@@ -28,7 +28,7 @@
   
   <td style="padding-left: 0.5em;">
    <div id="projectname">moGL
-   &#160;<span id="projectnumber">-travis/doxygen</span>
+   &#160;<span id="projectnumber">-develop</span>
    </div>
    <div id="projectbrief">Modern OpenGL wrapper, thin C++14 header-only layer on top of the OpenGL 4.5+ API</div>
   </td>
@@ -94,14 +94,17 @@ This is the complete list of members for <a class="el" href="classmogl_1_1_query
   <tr class="memlist"><td><a class="el" href="classmogl_1_1_query_object.html#a82c3db4f4d3a1a8769159578abf8f4fa">end</a>()</td><td><a class="el" href="classmogl_1_1_query_object.html">mogl::QueryObject</a></td><td><code> [inline]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classmogl_1_1_handle.html#a87ed3a7ba7fa12feafd63e47a3e30230">getHandle</a>() const</td><td><a class="el" href="classmogl_1_1_handle.html">mogl::Handle&lt; GLuint &gt;</a></td><td><code> [inline]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classmogl_1_1_query_object.html#a7e661967edc516885dc34e4cde0a5c64">getResult</a>(GLenum param)</td><td><a class="el" href="classmogl_1_1_query_object.html">mogl::QueryObject</a></td><td><code> [inline]</code></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmogl_1_1_query_object.html#ac0a059a6c0a1689ff07e984cce7f237b">getType</a>() const </td><td><a class="el" href="classmogl_1_1_query_object.html">mogl::QueryObject</a></td><td><code> [inline]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classmogl_1_1_handle.html#aaa2a88838f8911118044c3296f6be831">Handle</a>()</td><td><a class="el" href="classmogl_1_1_handle.html">mogl::Handle&lt; GLuint &gt;</a></td><td><code> [inline]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classmogl_1_1_handle.html#ad6358ba1f7c73345d35c69090d760551">Handle</a>(const Handle &amp;other)</td><td><a class="el" href="classmogl_1_1_handle.html">mogl::Handle&lt; GLuint &gt;</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmogl_1_1_handle.html#acce4ef9365b32351e950bd87c67ee180">Handle</a>(Handle &amp;&amp;other) noexcept</td><td><a class="el" href="classmogl_1_1_handle.html">mogl::Handle&lt; GLuint &gt;</a></td><td><code> [inline]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classmogl_1_1_query_object.html#a1fe5dae25849a9a4abd10e08de8bc88b">isValid</a>() const override final</td><td><a class="el" href="classmogl_1_1_query_object.html">mogl::QueryObject</a></td><td><code> [inline, virtual]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classmogl_1_1_query_object.html#a2b56a3fc806ba18d40df560c5cd121ba">operator=</a>(const QueryObject &amp;other)</td><td><a class="el" href="classmogl_1_1_query_object.html">mogl::QueryObject</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classmogl_1_1_handle.html#ac6b68625385696bf931c5c72d67041a0">Handle&lt; GLuint &gt;::operator=</a>(const Handle &amp;other)</td><td><a class="el" href="classmogl_1_1_handle.html">mogl::Handle&lt; GLuint &gt;</a></td><td></td></tr>
   <tr class="memlist"><td><a class="el" href="classmogl_1_1_query_object.html#a0e83b790b62b1468095a9818a9132c10">QueryObject</a>(GLenum type)</td><td><a class="el" href="classmogl_1_1_query_object.html">mogl::QueryObject</a></td><td><code> [inline]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classmogl_1_1_query_object.html#a903abe8185db4cd3eb3230ad158457b7">QueryObject</a>(const QueryObject &amp;other)</td><td><a class="el" href="classmogl_1_1_query_object.html">mogl::QueryObject</a></td><td></td></tr>
-  <tr class="memlist"><td><a class="el" href="classmogl_1_1_handle.html#a068fff534ee594f5131614c5f45917b5">~Handle</a>()</td><td><a class="el" href="classmogl_1_1_handle.html">mogl::Handle&lt; GLuint &gt;</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmogl_1_1_query_object.html#a5def565507ef97293a96b048e1598f92">QueryObject</a>(QueryObject &amp;&amp;other)</td><td><a class="el" href="classmogl_1_1_query_object.html">mogl::QueryObject</a></td><td></td></tr>
+  <tr class="memlist"><td><a class="el" href="classmogl_1_1_handle.html#ab292db683fde7200bd761bc76220f3ea">~Handle</a>()</td><td><a class="el" href="classmogl_1_1_handle.html">mogl::Handle&lt; GLuint &gt;</a></td><td><code> [virtual]</code></td></tr>
   <tr class="memlist"><td><a class="el" href="classmogl_1_1_query_object.html#a2ed561f49d730bc83a8cf251a4a25645">~QueryObject</a>()</td><td><a class="el" href="classmogl_1_1_query_object.html">mogl::QueryObject</a></td><td><code> [inline]</code></td></tr>
 </table></div><!-- contents -->
 <!-- window showing the filter options -->
@@ -121,7 +124,7 @@ This is the complete list of members for <a class="el" href="classmogl_1_1_query
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 25 2015 23:45:43 for moGL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Feb 26 2015 10:21:16 for moGL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>

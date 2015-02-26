@@ -28,7 +28,7 @@
   
   <td style="padding-left: 0.5em;">
    <div id="projectname">moGL
-   &#160;<span id="projectnumber">-travis/doxygen</span>
+   &#160;<span id="projectnumber">-develop</span>
    </div>
    <div id="projectbrief">Modern OpenGL wrapper, thin C++14 header-only layer on top of the OpenGL 4.5+ API</div>
   </td>
@@ -129,6 +129,7 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_buffer_object.html#a21ca6ca0f2ad803725f2c2101b517887">~BufferObject</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_buffer_object.html#abda73f82c9be380ab754b7651861ee87">BufferObject</a> (const <a class="el" href="classmogl_1_1_buffer_object.html">BufferObject</a> &amp;other)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmogl_1_1_buffer_object.html">BufferObject</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_buffer_object.html#a067e864db75898510c3a722f33a04f4a">operator=</a> (const <a class="el" href="classmogl_1_1_buffer_object.html">BufferObject</a> &amp;other)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_buffer_object.html#a46b7cea3f194464e2a65727c2f71df7d">BufferObject</a> (<a class="el" href="classmogl_1_1_buffer_object.html">BufferObject</a> &amp;&amp;other)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_buffer_object.html#a844727c40cb20ec4499704805fbdc711">bind</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_buffer_object.html#a148323ed10fba1b48575ebfeb1911323">setStorage</a> (GLsizeiptr size, const void *data, GLbitfield flags)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_buffer_object.html#a108b24997c6847678e40f4a842aaa24b">setData</a> (GLsizeiptr size, const void *data, GLenum usage)</td></tr>
@@ -140,11 +141,22 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_buffer_object.html#a2c8c856958ef3da76295f9e63ca97ed7">mapRange</a> (GLintptr offset, GLsizeiptr length, GLbitfield access)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_buffer_object.html#a988f8c114cd027e9357e2fb913e85e6b">unmap</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_buffer_object.html#aa3f4c4f233b2c46b74706e34c160d8e4">flushMappedRange</a> (GLintptr offset, GLsizeiptr length)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_buffer_object.html#a9fd6f614c7ff05b932938f9426053919">getParameteriv</a> (GLenum property, int *value)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_buffer_object.html#ad3b6ecc304bae2889a3ae43938635ffc">getParameteri64v</a> (GLenum property, GLint64 *value)</td></tr>
+<tr><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classmogl_1_1_buffer_object.html#ab49eb1c7b72afd4f0f1633041cffa0cf">get</a> (GLenum property, T *value)</td></tr>
+<tr><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classmogl_1_1_buffer_object.html#a7836881eb4f76297198b78682005e1de">get</a> (GLenum property)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_buffer_object.html#aac1e44c6787bcfb50e99f29878d0e138">getPointerv</a> (GLenum property, void **value)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_buffer_object.html#aab5f2918507b2a26067ea20028502893">getSubData</a> (GLintptr offset, GLsizeiptr size, void *data)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">GLenum&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_buffer_object.html#a0d041652a074fc901617b141c6a4aae5">getTarget</a> () const </td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_buffer_object.html#a9e69648cd603af08f0c994ef5a23ba38">isValid</a> () const override final</td></tr>
+<tr><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classmogl_1_1_buffer_object.html#ad1512a7b94a892cc97d57ed7bb179eff">get</a> (GLenum property, GLint *value)</td></tr>
+<tr><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classmogl_1_1_buffer_object.html#ab8be9f82895e0454cbc077aca091c56a">get</a> (GLenum property, GLint64 *value)</td></tr>
+<tr><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr><td class="memTemplItemLeft" align="right" valign="top">GLint&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classmogl_1_1_buffer_object.html#a7b052483c86e642fe96b4cfbb10477ce">get</a> (GLenum property)</td></tr>
+<tr><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr><td class="memTemplItemLeft" align="right" valign="top">GLint64&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classmogl_1_1_buffer_object.html#ab43fabcd605c0a708b4e2e2066195cc8">get</a> (GLenum property)</td></tr>
 </table>
 <hr/><h2>Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a012e5a0252f4621a08bf634a6445adb8"></a><!-- doxytag: member="mogl::BufferObject::BufferObject" ref="a012e5a0252f4621a08bf634a6445adb8" args="(GLenum target)" -->
@@ -188,6 +200,23 @@ Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="classmogl_1_1_buffer_object.html#a012e5a0252f4621a08bf634a6445adb8">mogl::BufferObject::BufferObject</a> </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classmogl_1_1_buffer_object.html">BufferObject</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a46b7cea3f194464e2a65727c2f71df7d"></a><!-- doxytag: member="mogl::BufferObject::BufferObject" ref="a46b7cea3f194464e2a65727c2f71df7d" args="(BufferObject &amp;&amp;other)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmogl_1_1_buffer_object.html#a012e5a0252f4621a08bf634a6445adb8">mogl::BufferObject::BufferObject</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmogl_1_1_buffer_object.html">BufferObject</a> &amp;&amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -370,12 +399,91 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad3b6ecc304bae2889a3ae43938635ffc"></a><!-- doxytag: member="mogl::BufferObject::getParameteri64v" ref="ad3b6ecc304bae2889a3ae43938635ffc" args="(GLenum property, GLint64 *value)" -->
+<a class="anchor" id="ab49eb1c7b72afd4f0f1633041cffa0cf"></a><!-- doxytag: member="mogl::BufferObject::get" ref="ab49eb1c7b72afd4f0f1633041cffa0cf" args="(GLenum property, T *value)" -->
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classmogl_1_1_buffer_object.html#ad3b6ecc304bae2889a3ae43938635ffc">mogl::BufferObject::getParameteri64v</a> </td>
+          <td class="memname">void <a class="el" href="classmogl_1_1_buffer_object.html#ab49eb1c7b72afd4f0f1633041cffa0cf">mogl::BufferObject::get</a> </td>
+          <td>(</td>
+          <td class="paramtype">GLenum&#160;</td>
+          <td class="paramname"><em>property</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T *&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7836881eb4f76297198b78682005e1de"></a><!-- doxytag: member="mogl::BufferObject::get" ref="a7836881eb4f76297198b78682005e1de" args="(GLenum property)" -->
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T <a class="el" href="classmogl_1_1_buffer_object.html#ab49eb1c7b72afd4f0f1633041cffa0cf">mogl::BufferObject::get</a> </td>
+          <td>(</td>
+          <td class="paramtype">GLenum&#160;</td>
+          <td class="paramname"><em>property</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad1512a7b94a892cc97d57ed7bb179eff"></a><!-- doxytag: member="mogl::BufferObject::get" ref="ad1512a7b94a892cc97d57ed7bb179eff" args="(GLenum property, GLint *value)" -->
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classmogl_1_1_buffer_object.html#ab49eb1c7b72afd4f0f1633041cffa0cf">mogl::BufferObject::get</a> </td>
+          <td>(</td>
+          <td class="paramtype">GLenum&#160;</td>
+          <td class="paramname"><em>property</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLint *&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td><code> [inline]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab8be9f82895e0454cbc077aca091c56a"></a><!-- doxytag: member="mogl::BufferObject::get" ref="ab8be9f82895e0454cbc077aca091c56a" args="(GLenum property, GLint64 *value)" -->
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classmogl_1_1_buffer_object.html#ab49eb1c7b72afd4f0f1633041cffa0cf">mogl::BufferObject::get</a> </td>
           <td>(</td>
           <td class="paramtype">GLenum&#160;</td>
           <td class="paramname"><em>property</em>, </td>
@@ -397,26 +505,37 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9fd6f614c7ff05b932938f9426053919"></a><!-- doxytag: member="mogl::BufferObject::getParameteriv" ref="a9fd6f614c7ff05b932938f9426053919" args="(GLenum property, int *value)" -->
+<a class="anchor" id="a7b052483c86e642fe96b4cfbb10477ce"></a><!-- doxytag: member="mogl::BufferObject::get" ref="a7b052483c86e642fe96b4cfbb10477ce" args="(GLenum property)" -->
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classmogl_1_1_buffer_object.html#a9fd6f614c7ff05b932938f9426053919">mogl::BufferObject::getParameteriv</a> </td>
+          <td class="memname">GLint <a class="el" href="classmogl_1_1_buffer_object.html#ab49eb1c7b72afd4f0f1633041cffa0cf">mogl::BufferObject::get</a> </td>
           <td>(</td>
           <td class="paramtype">GLenum&#160;</td>
-          <td class="paramname"><em>property</em>, </td>
+          <td class="paramname"><em>property</em></td><td>)</td>
+          <td><code> [inline]</code></td>
         </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab43fabcd605c0a708b4e2e2066195cc8"></a><!-- doxytag: member="mogl::BufferObject::get" ref="ab43fabcd605c0a708b4e2e2066195cc8" args="(GLenum property)" -->
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+      <table class="memname">
         <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int *&#160;</td>
-          <td class="paramname"><em>value</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td><code> [inline]</code></td>
+          <td class="memname">GLint64 <a class="el" href="classmogl_1_1_buffer_object.html#ab49eb1c7b72afd4f0f1633041cffa0cf">mogl::BufferObject::get</a> </td>
+          <td>(</td>
+          <td class="paramtype">GLenum&#160;</td>
+          <td class="paramname"><em>property</em></td><td>)</td>
+          <td><code> [inline]</code></td>
         </tr>
       </table>
 </div>
@@ -477,6 +596,22 @@ Public Member Functions</h2></td></tr>
           <td></td>
           <td>)</td>
           <td></td><td><code> [inline]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0d041652a074fc901617b141c6a4aae5"></a><!-- doxytag: member="mogl::BufferObject::getTarget" ref="a0d041652a074fc901617b141c6a4aae5" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLenum <a class="el" href="classmogl_1_1_buffer_object.html#a0d041652a074fc901617b141c6a4aae5">mogl::BufferObject::getTarget</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const<code> [inline]</code></td>
         </tr>
       </table>
 </div>
@@ -706,7 +841,7 @@ Public Member Functions</h2></td></tr>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 25 2015 23:45:43 for moGL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Feb 26 2015 10:21:16 for moGL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>

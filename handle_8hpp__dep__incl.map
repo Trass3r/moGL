@@ -1,30 +1,19 @@
 <map id="G" name="G">
-<area shape="rect" id="node3" href="$bufferobject_8hpp.html" title="Buffer object OO wrapper using OpenGL 4.5 DSA features." alt="" coords="151,83,508,112"/>
-<area shape="rect" id="node12" href="$transformfeedbackobject_8hpp.html" title="/home/travis/build/Ryp/moGL/mogl/buffer/transformfeedbackobject.hpp" alt="" coords="680,83,1112,112"/>
-<area shape="rect" id="node18" href="$vertexarrayobject_8hpp.html" title="VAO object OO wrapper using OpenGL 4.5 DSA features." alt="" coords="1136,83,1525,112"/>
-<area shape="rect" id="node24" href="$framebufferobject_8hpp.html" title="Framebuffer object OO wrapper using OpenGL 4.5 DSA features." alt="" coords="2424,160,2848,189"/>
-<area shape="rect" id="node32" href="$queryobject_8hpp.html" title="Query object OO wrapper using OpenGL 4.5 DSA features." alt="" coords="1640,83,1960,112"/>
-<area shape="rect" id="node38" href="$renderbufferobject_8hpp.html" title="RenderBuffer object OO wrapper using OpenGL 4.5 DSA features." alt="" coords="2171,83,2600,112"/>
-<area shape="rect" id="node47" href="$shaderobject_8hpp.html" title="/home/travis/build/Ryp/moGL/mogl/shader/shaderobject.hpp" alt="" coords="2919,83,3289,112"/>
-<area shape="rect" id="node55" href="$shaderprogram_8hpp.html" title="/home/travis/build/Ryp/moGL/mogl/shader/shaderprogram.hpp" alt="" coords="3309,160,3691,189"/>
-<area shape="rect" id="node62" href="$fence_8hpp.html" title="Buffer object OO wrapper using OpenGL 4.5 DSA features." alt="" coords="3661,83,3979,112"/>
-<area shape="rect" id="node68" href="$sampler_8hpp.html" title="/home/travis/build/Ryp/moGL/mogl/texture/sampler.hpp" alt="" coords="4095,83,4436,112"/>
-<area shape="rect" id="node76" href="$textureobject_8hpp.html" title="Texture object OO wrapper using OpenGL 4.5 DSA features." alt="" coords="4460,83,4831,112"/>
-<area shape="rect" id="node5" href="$bufferobject_8inl.html" title="/home/travis/build/Ryp/moGL/mogl/buffer/bufferobject.inl" alt="" coords="5,160,355,189"/>
-<area shape="rect" id="node8" href="$buffer_8hpp.html" title="/home/travis/build/Ryp/moGL/mogl/buffer.hpp" alt="" coords="379,160,664,189"/>
-<area shape="rect" id="node10" href="$mogl_8hpp.html" title="/home/travis/build/Ryp/moGL/mogl/mogl.hpp" alt="" coords="2707,315,2987,344"/>
-<area shape="rect" id="node14" href="$transformfeedbackobject_8inl.html" title="/home/travis/build/Ryp/moGL/mogl/buffer/transformfeedbackobject.inl" alt="" coords="688,160,1112,189"/>
-<area shape="rect" id="node20" href="$vertexarrayobject_8inl.html" title="/home/travis/build/Ryp/moGL/mogl/buffer/vertexarrayobject.inl" alt="" coords="1136,160,1517,189"/>
-<area shape="rect" id="node26" href="$framebufferobject_8inl.html" title="/home/travis/build/Ryp/moGL/mogl/framebuffer/framebufferobject.inl" alt="" coords="2248,237,2664,267"/>
-<area shape="rect" id="node29" href="$framebuffer_8hpp.html" title="/home/travis/build/Ryp/moGL/mogl/framebuffer.hpp" alt="" coords="2688,237,3005,267"/>
-<area shape="rect" id="node35" href="$queryobject_8inl.html" title="/home/travis/build/Ryp/moGL/mogl/queryobject.inl" alt="" coords="1541,160,1853,189"/>
-<area shape="rect" id="node41" href="$renderbuffer_8hpp.html" title="/home/travis/build/Ryp/moGL/mogl/renderbuffer.hpp" alt="" coords="1901,237,2224,267"/>
-<area shape="rect" id="node44" href="$renderbufferobject_8inl.html" title="/home/travis/build/Ryp/moGL/mogl/renderbuffer/renderbufferobject.inl" alt="" coords="1928,160,2349,189"/>
-<area shape="rect" id="node49" href="$shader_8hpp.html" title="/home/travis/build/Ryp/moGL/mogl/shader.hpp" alt="" coords="3029,237,3320,267"/>
-<area shape="rect" id="node52" href="$shaderobject_8inl.html" title="/home/travis/build/Ryp/moGL/mogl/shader/shaderobject.inl" alt="" coords="2923,160,3285,189"/>
-<area shape="rect" id="node58" href="$shaderprogram_8inl.html" title="/home/travis/build/Ryp/moGL/mogl/shader/shaderprogram.inl" alt="" coords="3344,237,3717,267"/>
-<area shape="rect" id="node65" href="$fence_8inl.html" title="/home/travis/build/Ryp/moGL/mogl/sync/fence.inl" alt="" coords="3765,160,4075,189"/>
-<area shape="rect" id="node70" href="$texture_8hpp.html" title="/home/travis/build/Ryp/moGL/mogl/texture.hpp" alt="" coords="4456,160,4749,189"/>
-<area shape="rect" id="node73" href="$sampler_8inl.html" title="/home/travis/build/Ryp/moGL/mogl/texture/sampler.inl" alt="" coords="4099,160,4432,189"/>
-<area shape="rect" id="node80" href="$textureobject_8inl.html" title="/home/travis/build/Ryp/moGL/mogl/texture/textureobject.inl" alt="" coords="4773,160,5136,189"/>
+<area shape="rect" id="node3" href="$bufferobject_8hpp.html" title="Buffer object OO wrapper using OpenGL 4.5 DSA features." alt="" coords="5,83,363,112"/>
+<area shape="rect" id="node9" href="$transformfeedbackobject_8hpp.html" title="/home/travis/build/Ryp/moGL/mogl/buffer/transformfeedbackobject.hpp" alt="" coords="387,83,819,112"/>
+<area shape="rect" id="node12" href="$vertexarrayobject_8hpp.html" title="VAO object OO wrapper using OpenGL 4.5 DSA features." alt="" coords="843,83,1232,112"/>
+<area shape="rect" id="node15" href="$framebufferobject_8hpp.html" title="Framebuffer object OO wrapper using OpenGL 4.5 DSA features." alt="" coords="1556,160,1980,189"/>
+<area shape="rect" id="node20" href="$queryobject_8hpp.html" title="Query object OO wrapper using OpenGL 4.5 DSA features." alt="" coords="1997,237,2317,267"/>
+<area shape="rect" id="node23" href="$renderbufferobject_8hpp.html" title="RenderBuffer object OO wrapper using OpenGL 4.5 DSA features." alt="" coords="1256,83,1685,112"/>
+<area shape="rect" id="node29" href="$shaderobject_8hpp.html" title="/home/travis/build/Ryp/moGL/mogl/shader/shaderobject.hpp" alt="" coords="2571,83,2941,112"/>
+<area shape="rect" id="node34" href="$shaderprogram_8hpp.html" title="/home/travis/build/Ryp/moGL/mogl/shader/shaderprogram.hpp" alt="" coords="2573,160,2955,189"/>
+<area shape="rect" id="node38" href="$fence_8hpp.html" title="Buffer object OO wrapper using OpenGL 4.5 DSA features." alt="" coords="2979,160,3296,189"/>
+<area shape="rect" id="node41" href="$sampler_8hpp.html" title="/home/travis/build/Ryp/moGL/mogl/texture/sampler.hpp" alt="" coords="2205,83,2547,112"/>
+<area shape="rect" id="node46" href="$textureobject_8hpp.html" title="Texture object OO wrapper using OpenGL 4.5 DSA features." alt="" coords="1760,83,2131,112"/>
+<area shape="rect" id="node5" href="$buffer_8hpp.html" title="/home/travis/build/Ryp/moGL/mogl/buffer.hpp" alt="" coords="627,160,912,189"/>
+<area shape="rect" id="node7" href="$mogl_8hpp.html" title="/home/travis/build/Ryp/moGL/mogl/mogl.hpp" alt="" coords="2017,315,2297,344"/>
+<area shape="rect" id="node17" href="$framebuffer_8hpp.html" title="/home/travis/build/Ryp/moGL/mogl/framebuffer.hpp" alt="" coords="1656,237,1973,267"/>
+<area shape="rect" id="node26" href="$renderbuffer_8hpp.html" title="/home/travis/build/Ryp/moGL/mogl/renderbuffer.hpp" alt="" coords="1309,237,1632,267"/>
+<area shape="rect" id="node31" href="$shader_8hpp.html" title="/home/travis/build/Ryp/moGL/mogl/shader.hpp" alt="" coords="2392,237,2683,267"/>
+<area shape="rect" id="node43" href="$texture_8hpp.html" title="/home/travis/build/Ryp/moGL/mogl/texture.hpp" alt="" coords="2205,160,2499,189"/>
 </map>

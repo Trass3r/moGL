@@ -28,7 +28,7 @@
   
   <td style="padding-left: 0.5em;">
    <div id="projectname">moGL
-   &#160;<span id="projectnumber">-travis/doxygen</span>
+   &#160;<span id="projectnumber">-develop</span>
    </div>
    <div id="projectbrief">Modern OpenGL wrapper, thin C++14 header-only layer on top of the OpenGL 4.5+ API</div>
   </td>
@@ -129,10 +129,12 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_query_object.html#a2ed561f49d730bc83a8cf251a4a25645">~QueryObject</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_query_object.html#a903abe8185db4cd3eb3230ad158457b7">QueryObject</a> (const <a class="el" href="classmogl_1_1_query_object.html">QueryObject</a> &amp;other)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmogl_1_1_query_object.html">QueryObject</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_query_object.html#a2b56a3fc806ba18d40df560c5cd121ba">operator=</a> (const <a class="el" href="classmogl_1_1_query_object.html">QueryObject</a> &amp;other)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_query_object.html#a5def565507ef97293a96b048e1598f92">QueryObject</a> (<a class="el" href="classmogl_1_1_query_object.html">QueryObject</a> &amp;&amp;other)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_query_object.html#ae969d64316af5f33cf8eedb5c4002004">begin</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_query_object.html#a82c3db4f4d3a1a8769159578abf8f4fa">end</a> ()</td></tr>
 <tr><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classmogl_1_1_query_object.html#a7e661967edc516885dc34e4cde0a5c64">getResult</a> (GLenum param)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">GLenum&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_query_object.html#ac0a059a6c0a1689ff07e984cce7f237b">getType</a> () const </td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_query_object.html#a1fe5dae25849a9a4abd10e08de8bc88b">isValid</a> () const override final</td></tr>
 </table>
 <hr/><h2>Constructor &amp; Destructor Documentation</h2>
@@ -186,6 +188,23 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a5def565507ef97293a96b048e1598f92"></a><!-- doxytag: member="mogl::QueryObject::QueryObject" ref="a5def565507ef97293a96b048e1598f92" args="(QueryObject &amp;&amp;other)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmogl_1_1_query_object.html#a0e83b790b62b1468095a9818a9132c10">mogl::QueryObject::QueryObject</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmogl_1_1_query_object.html">QueryObject</a> &amp;&amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
 <hr/><h2>Member Function Documentation</h2>
 <a class="anchor" id="ae969d64316af5f33cf8eedb5c4002004"></a><!-- doxytag: member="mogl::QueryObject::begin" ref="ae969d64316af5f33cf8eedb5c4002004" args="()" -->
 <div class="memitem">
@@ -229,6 +248,22 @@ Public Member Functions</h2></td></tr>
           <td class="paramtype">GLenum&#160;</td>
           <td class="paramname"><em>param</em></td><td>)</td>
           <td><code> [inline]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac0a059a6c0a1689ff07e984cce7f237b"></a><!-- doxytag: member="mogl::QueryObject::getType" ref="ac0a059a6c0a1689ff07e984cce7f237b" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLenum <a class="el" href="classmogl_1_1_query_object.html#ac0a059a6c0a1689ff07e984cce7f237b">mogl::QueryObject::getType</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const<code> [inline]</code></td>
         </tr>
       </table>
 </div>
@@ -293,7 +328,7 @@ Public Member Functions</h2></td></tr>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 25 2015 23:45:43 for moGL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Feb 26 2015 10:21:16 for moGL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>

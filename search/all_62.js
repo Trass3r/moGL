@@ -5,7 +5,7 @@ var searchData=
   ['bindattriblocation',['bindAttribLocation',['../classmogl_1_1_shader_program.html#ad9fdad4038a9453dffdeafd03bca0366',1,'mogl::ShaderProgram']]],
   ['buffer_2ehpp',['buffer.hpp',['../buffer_8hpp.html',1,'']]],
   ['bufferobject',['BufferObject',['../classmogl_1_1_buffer_object.html',1,'mogl']]],
-  ['bufferobject',['BufferObject',['../classmogl_1_1_buffer_object.html#a012e5a0252f4621a08bf634a6445adb8',1,'mogl::BufferObject::BufferObject(GLenum target)'],['../classmogl_1_1_buffer_object.html#abda73f82c9be380ab754b7651861ee87',1,'mogl::BufferObject::BufferObject(const BufferObject &amp;other)']]],
+  ['bufferobject',['BufferObject',['../classmogl_1_1_buffer_object.html#a012e5a0252f4621a08bf634a6445adb8',1,'mogl::BufferObject::BufferObject(GLenum target)'],['../classmogl_1_1_buffer_object.html#abda73f82c9be380ab754b7651861ee87',1,'mogl::BufferObject::BufferObject(const BufferObject &amp;other)'],['../classmogl_1_1_buffer_object.html#a46b7cea3f194464e2a65727c2f71df7d',1,'mogl::BufferObject::BufferObject(BufferObject &amp;&amp;other)']]],
   ['bufferobject_2ehpp',['bufferobject.hpp',['../bufferobject_8hpp.html',1,'']]],
   ['bufferobject_2einl',['bufferobject.inl',['../bufferobject_8inl.html',1,'']]]
 ];

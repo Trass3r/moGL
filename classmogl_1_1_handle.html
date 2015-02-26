@@ -28,7 +28,7 @@
   
   <td style="padding-left: 0.5em;">
    <div id="projectname">moGL
-   &#160;<span id="projectnumber">-travis/doxygen</span>
+   &#160;<span id="projectnumber">-develop</span>
    </div>
    <div id="projectbrief">Modern OpenGL wrapper, thin C++14 header-only layer on top of the OpenGL 4.5+ API</div>
   </td>
@@ -120,9 +120,10 @@ Collaboration diagram for mogl::Handle&lt; T &gt;:</div>
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_handle.html#aaa2a88838f8911118044c3296f6be831">Handle</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_handle.html#a068fff534ee594f5131614c5f45917b5">~Handle</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_handle.html#ab292db683fde7200bd761bc76220f3ea">~Handle</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_handle.html#ad6358ba1f7c73345d35c69090d760551">Handle</a> (const <a class="el" href="classmogl_1_1_handle.html">Handle</a> &amp;other)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmogl_1_1_handle.html">Handle</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_handle.html#ac6b68625385696bf931c5c72d67041a0">operator=</a> (const <a class="el" href="classmogl_1_1_handle.html">Handle</a> &amp;other)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_handle.html#acce4ef9365b32351e950bd87c67ee180">Handle</a> (<a class="el" href="classmogl_1_1_handle.html">Handle</a> &amp;&amp;other) noexcept</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_handle.html#a87ed3a7ba7fa12feafd63e47a3e30230">getHandle</a> () const </td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_handle.html#ae46b132e439cab513bbab74e6cb24f03">isValid</a> () const =0</td></tr>
 <tr><td colspan="2"><h2><a name="pro-attribs"></a>
@@ -151,17 +152,17 @@ template&lt;class T = GLuint&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a068fff534ee594f5131614c5f45917b5"></a><!-- doxytag: member="mogl::Handle::~Handle" ref="a068fff534ee594f5131614c5f45917b5" args="()" -->
+<a class="anchor" id="ab292db683fde7200bd761bc76220f3ea"></a><!-- doxytag: member="mogl::Handle::~Handle" ref="ab292db683fde7200bd761bc76220f3ea" args="()" -->
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;class T = GLuint&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classmogl_1_1_handle.html">mogl::Handle</a>&lt; T &gt;::~<a class="el" href="classmogl_1_1_handle.html">Handle</a> </td>
+          <td class="memname">virtual <a class="el" href="classmogl_1_1_handle.html">mogl::Handle</a>&lt; T &gt;::~<a class="el" href="classmogl_1_1_handle.html">Handle</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td><code> [virtual]</code></td>
         </tr>
       </table>
 </div>
@@ -181,6 +182,25 @@ template&lt;class T = GLuint&gt; </div>
           <td class="paramtype">const <a class="el" href="classmogl_1_1_handle.html">Handle</a>&lt; T &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="acce4ef9365b32351e950bd87c67ee180"></a><!-- doxytag: member="mogl::Handle::Handle" ref="acce4ef9365b32351e950bd87c67ee180" args="(Handle &amp;&amp;other) noexcept" -->
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T = GLuint&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmogl_1_1_handle.html">mogl::Handle</a>&lt; T &gt;::<a class="el" href="classmogl_1_1_handle.html">Handle</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmogl_1_1_handle.html">Handle</a>&lt; T &gt; &amp;&amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td><code> [inline]</code></td>
         </tr>
       </table>
 </div>
@@ -223,7 +243,7 @@ template&lt;class T = GLuint&gt; </div>
 </div>
 <div class="memdoc">
 
-<p>Implemented in <a class="el" href="classmogl_1_1_shader_program.html#af1fb74be40e0f32e5e54c787be0bc8bc">mogl::ShaderProgram</a>, <a class="el" href="classmogl_1_1_shader_object.html#abca06c14f77cb380d841a0cebe6988a7">mogl::ShaderObject</a>, <a class="el" href="classmogl_1_1_buffer_object.html#a9e69648cd603af08f0c994ef5a23ba38">mogl::BufferObject</a>, <a class="el" href="classmogl_1_1_vertex_array_object.html#a17db58d3a2a1e4a9ef67e07cf92036b5">mogl::VertexArrayObject</a>, <a class="el" href="classmogl_1_1_texture_object.html#ae479c345a5bb3a0e156dedd188300339">mogl::TextureObject</a>, <a class="el" href="classmogl_1_1_frame_buffer_object.html#aadbffd53c366052d53402d81db33430b">mogl::FrameBufferObject</a>, <a class="el" href="classmogl_1_1_query_object.html#a1fe5dae25849a9a4abd10e08de8bc88b">mogl::QueryObject</a>, <a class="el" href="classmogl_1_1_render_buffer_object.html#a5029dbaa6c63e4aac5e70b4efc329b3f">mogl::RenderBufferObject</a>, <a class="el" href="classmogl_1_1_sampler.html#a0e952fb40de227b9f04157670308a50a">mogl::Sampler</a>, <a class="el" href="classmogl_1_1_fence.html#ae57bf177e04129f95b1e83635f053af9">mogl::Fence</a>, and <a class="el" href="classmogl_1_1_transform_feedback_object.html#a38bc8207a7759da22a4ce6d6d67f4ad2">mogl::TransformFeedbackObject</a>.</p>
+<p>Implemented in <a class="el" href="classmogl_1_1_shader_program.html#af1fb74be40e0f32e5e54c787be0bc8bc">mogl::ShaderProgram</a>, <a class="el" href="classmogl_1_1_buffer_object.html#a9e69648cd603af08f0c994ef5a23ba38">mogl::BufferObject</a>, <a class="el" href="classmogl_1_1_shader_object.html#abca06c14f77cb380d841a0cebe6988a7">mogl::ShaderObject</a>, <a class="el" href="classmogl_1_1_vertex_array_object.html#a17db58d3a2a1e4a9ef67e07cf92036b5">mogl::VertexArrayObject</a>, <a class="el" href="classmogl_1_1_texture_object.html#ae479c345a5bb3a0e156dedd188300339">mogl::TextureObject</a>, <a class="el" href="classmogl_1_1_frame_buffer_object.html#aadbffd53c366052d53402d81db33430b">mogl::FrameBufferObject</a>, <a class="el" href="classmogl_1_1_query_object.html#a1fe5dae25849a9a4abd10e08de8bc88b">mogl::QueryObject</a>, <a class="el" href="classmogl_1_1_render_buffer_object.html#a5029dbaa6c63e4aac5e70b4efc329b3f">mogl::RenderBufferObject</a>, <a class="el" href="classmogl_1_1_sampler.html#a0e952fb40de227b9f04157670308a50a">mogl::Sampler</a>, <a class="el" href="classmogl_1_1_fence.html#ae57bf177e04129f95b1e83635f053af9">mogl::Fence</a>, and <a class="el" href="classmogl_1_1_transform_feedback_object.html#a38bc8207a7759da22a4ce6d6d67f4ad2">mogl::TransformFeedbackObject</a>.</p>
 
 </div>
 </div>
@@ -283,7 +303,7 @@ template&lt;class T = GLuint&gt; </div>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 25 2015 23:45:43 for moGL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Feb 26 2015 10:21:16 for moGL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>

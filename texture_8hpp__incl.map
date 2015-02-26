@@ -1,7 +1,7 @@
 <map id="G" name="G">
 <area shape="rect" id="node3" href="$textureobject_8hpp.html" title="Texture object OO wrapper using OpenGL 4.5 DSA features." alt="" coords="5,83,203,112"/>
-<area shape="rect" id="node10" href="$sampler_8hpp.html" title="mogl/texture/sampler.hpp" alt="" coords="256,83,424,112"/>
-<area shape="rect" id="node5" href="$handle_8hpp.html" title="GL Handle wrapper, base class to most mogl objects, templated on the handle type, because it is not a..." alt="" coords="171,160,288,189"/>
-<area shape="rect" id="node7" href="$textureobject_8inl.html" title="textureobject.inl" alt="" coords="32,160,147,189"/>
-<area shape="rect" id="node13" href="$sampler_8inl.html" title="sampler.inl" alt="" coords="312,160,397,189"/>
+<area shape="rect" id="node9" href="$sampler_8hpp.html" title="mogl/texture/sampler.hpp" alt="" coords="227,83,395,112"/>
+<area shape="rect" id="node5" href="$handle_8hpp.html" title="GL Handle wrapper, base class to most mogl objects, templated on the handle type, because it is not a..." alt="" coords="156,160,273,189"/>
+<area shape="rect" id="node7" href="$textureobject_8inl.html" title="textureobject.inl" alt="" coords="17,160,132,189"/>
+<area shape="rect" id="node12" href="$sampler_8inl.html" title="sampler.inl" alt="" coords="297,160,383,189"/>
 </map>

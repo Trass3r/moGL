@@ -28,7 +28,7 @@
   
   <td style="padding-left: 0.5em;">
    <div id="projectname">moGL
-   &#160;<span id="projectnumber">-travis/doxygen</span>
+   &#160;<span id="projectnumber">-develop</span>
    </div>
    <div id="projectbrief">Modern OpenGL wrapper, thin C++14 header-only layer on top of the OpenGL 4.5+ API</div>
   </td>
@@ -98,25 +98,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l00016"></a>00016 
 <a name="l00017"></a>00017 <span class="keyword">namespace </span>mogl
 <a name="l00018"></a>00018 {
-<a name="l00019"></a><a class="code" href="classmogl_1_1_debug.html">00019</a>     <span class="keyword">class </span><a class="code" href="classmogl_1_1_debug.html">Debug</a>
+<a name="l00019"></a><a class="code" href="namespacemogl_1_1_debug.html">00019</a>     <span class="keyword">namespace </span>Debug
 <a name="l00020"></a>00020     {
-<a name="l00021"></a>00021     <span class="keyword">public</span>:
-<a name="l00022"></a>00022         <a class="code" href="classmogl_1_1_debug.html#a8410a52187cbbd3d7723e2f9cbea849a">Debug</a>() = <span class="keyword">delete</span>;
-<a name="l00023"></a>00023 
-<a name="l00024"></a>00024     <span class="keyword">private</span>:
-<a name="l00025"></a>00025         
-<a name="l00026"></a>00026 
-<a name="l00027"></a>00027     <span class="keyword">public</span>:
-<a name="l00028"></a>00028         <span class="keyword">static</span> std::string  <a class="code" href="classmogl_1_1_debug.html#ad57a695a1f85fc08de05cb3c1162068f">getErrorString</a>(GLenum error);
-<a name="l00029"></a>00029         <span class="keyword">static</span> <span class="keywordtype">void</span>         <a class="code" href="classmogl_1_1_debug.html#a84afe2ad4f880dff57317aebdf3fb923">assertGLState</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* file, <span class="keyword">const</span> <span class="keywordtype">char</span>* func, <span class="keywordtype">int</span> line);
-<a name="l00030"></a>00030     };
-<a name="l00031"></a>00031 }
-<a name="l00032"></a>00032 
-<a name="l00033"></a><a class="code" href="debug_8hpp.html#a379e55ca4cdc9457f6b18ca74bc9f067">00033</a> <span class="preprocessor">#define MOGL_ASSERT_GLSTATE() mogl::Debug::assertGLState(__FILE__, __FUNCTION__, __LINE__)</span>
-<a name="l00034"></a>00034 <span class="preprocessor"></span>
-<a name="l00035"></a>00035 <span class="preprocessor">#include &quot;<a class="code" href="debug_8inl.html">debug.inl</a>&quot;</span>
-<a name="l00036"></a>00036 
-<a name="l00037"></a>00037 <span class="preprocessor">#endif // MOGL_DEBUG_INCLUDED</span>
+<a name="l00021"></a>00021         std::string <a class="code" href="namespacemogl_1_1_debug.html#ad57a695a1f85fc08de05cb3c1162068f">getErrorString</a>(GLenum error);
+<a name="l00022"></a>00022         <span class="keywordtype">void</span>        <a class="code" href="namespacemogl_1_1_debug.html#a84afe2ad4f880dff57317aebdf3fb923">assertGLState</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* file, <span class="keyword">const</span> <span class="keywordtype">char</span>* func, <span class="keywordtype">int</span> line);
+<a name="l00023"></a>00023     };
+<a name="l00024"></a>00024 }
+<a name="l00025"></a>00025 
+<a name="l00026"></a><a class="code" href="debug_8hpp.html#a379e55ca4cdc9457f6b18ca74bc9f067">00026</a> <span class="preprocessor">#define MOGL_ASSERT_GLSTATE() mogl::Debug::assertGLState(__FILE__, __FUNCTION__, __LINE__)</span>
+<a name="l00027"></a>00027 <span class="preprocessor"></span>
+<a name="l00028"></a>00028 <span class="preprocessor">#include &quot;<a class="code" href="debug_8inl.html">debug.inl</a>&quot;</span>
+<a name="l00029"></a>00029 
+<a name="l00030"></a>00030 <span class="preprocessor">#endif // MOGL_DEBUG_INCLUDED</span>
 </pre></div></div><!-- contents -->
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
@@ -135,7 +128,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 25 2015 23:45:43 for moGL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Feb 26 2015 10:21:16 for moGL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>

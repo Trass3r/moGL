@@ -28,7 +28,7 @@
   
   <td style="padding-left: 0.5em;">
    <div id="projectname">moGL
-   &#160;<span id="projectnumber">-travis/doxygen</span>
+   &#160;<span id="projectnumber">-develop</span>
    </div>
    <div id="projectbrief">Modern OpenGL wrapper, thin C++14 header-only layer on top of the OpenGL 4.5+ API</div>
   </td>
@@ -106,18 +106,20 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l00024"></a>00024         <a class="code" href="classmogl_1_1_sampler.html#a80e18042612dfd4ffe2ba770004e1701">Sampler</a>(<span class="keyword">const</span> <a class="code" href="classmogl_1_1_sampler.html">Sampler</a>&amp; other) = <span class="keyword">delete</span>;
 <a name="l00025"></a>00025         <a class="code" href="classmogl_1_1_sampler.html">Sampler</a>&amp; <a class="code" href="classmogl_1_1_sampler.html#a959caea7fb25fe37508c8e7eab82c25a">operator=</a>(<span class="keyword">const</span> <a class="code" href="classmogl_1_1_sampler.html">Sampler</a>&amp; other) = <span class="keyword">delete</span>;
 <a name="l00026"></a>00026 
-<a name="l00027"></a>00027     <span class="keyword">public</span>:
-<a name="l00028"></a>00028         <span class="keywordtype">void</span>    <a class="code" href="classmogl_1_1_sampler.html#adb7ef189243ec9024646aef29c31b3d2">bind</a>(GLuint unit);
-<a name="l00029"></a>00029         <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; <span class="keywordtype">void</span> <span class="keyword">get</span>(GLenum property, T* value); <span class="comment">// Direct call to glGetSamplerParameter*v()</span>
-<a name="l00030"></a>00030         <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; T    <span class="keyword">get</span>(GLenum property);
-<a name="l00031"></a>00031         <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; <span class="keywordtype">void</span> <span class="keyword">set</span>(GLenum property, T value);
-<a name="l00032"></a>00032         <span class="keywordtype">bool</span>    <a class="code" href="classmogl_1_1_sampler.html#a0e952fb40de227b9f04157670308a50a">isValid</a>() <span class="keyword">const</span> <span class="keyword">override</span> <span class="keyword">final</span>;
-<a name="l00033"></a>00033     };
-<a name="l00034"></a>00034 }
-<a name="l00035"></a>00035 
-<a name="l00036"></a>00036 <span class="preprocessor">#include &quot;<a class="code" href="sampler_8inl.html">sampler.inl</a>&quot;</span>
+<a name="l00027"></a>00027         <a class="code" href="classmogl_1_1_sampler.html#a80e18042612dfd4ffe2ba770004e1701">Sampler</a>(<a class="code" href="classmogl_1_1_sampler.html">Sampler</a>&amp;&amp; other) = <span class="keywordflow">default</span>;
+<a name="l00028"></a>00028 
+<a name="l00029"></a>00029     <span class="keyword">public</span>:
+<a name="l00030"></a>00030         <span class="keywordtype">void</span>    <a class="code" href="classmogl_1_1_sampler.html#adb7ef189243ec9024646aef29c31b3d2">bind</a>(GLuint unit);
+<a name="l00031"></a>00031         <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; <span class="keywordtype">void</span> <span class="keyword">get</span>(GLenum property, T* value); <span class="comment">// Direct call to glGetSamplerParameter*v()</span>
+<a name="l00032"></a>00032         <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; T    <span class="keyword">get</span>(GLenum property);
+<a name="l00033"></a>00033         <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; <span class="keywordtype">void</span> <span class="keyword">set</span>(GLenum property, T value);
+<a name="l00034"></a>00034         <span class="keywordtype">bool</span>    <a class="code" href="classmogl_1_1_sampler.html#a0e952fb40de227b9f04157670308a50a">isValid</a>() <span class="keyword">const</span> <span class="keyword">override</span> <span class="keyword">final</span>;
+<a name="l00035"></a>00035     };
+<a name="l00036"></a>00036 }
 <a name="l00037"></a>00037 
-<a name="l00038"></a>00038 <span class="preprocessor">#endif // MOGL_SAMPLER_INCLUDED</span>
+<a name="l00038"></a>00038 <span class="preprocessor">#include &quot;<a class="code" href="sampler_8inl.html">sampler.inl</a>&quot;</span>
+<a name="l00039"></a>00039 
+<a name="l00040"></a>00040 <span class="preprocessor">#endif // MOGL_SAMPLER_INCLUDED</span>
 </pre></div></div><!-- contents -->
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
@@ -136,7 +138,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 25 2015 23:45:43 for moGL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Feb 26 2015 10:21:16 for moGL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>
