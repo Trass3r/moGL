@@ -1,5 +1,5 @@
 <map id="G" name="G">
-<area shape="rect" id="node3" href="$vertexarrayobject_8hpp.html" title="VAO object OO wrapper using OpenGL 4.5 DSA features." alt="" coords="5,83,395,112"/>
-<area shape="rect" id="node5" href="$buffer_8hpp.html" title="/home/travis/build/Ryp/moGL/mogl/buffer.hpp" alt="" coords="57,160,343,189"/>
-<area shape="rect" id="node7" href="$mogl_8hpp.html" title="/home/travis/build/Ryp/moGL/mogl/mogl.hpp" alt="" coords="60,237,340,267"/>
+<area shape="rect" id="node3" href="$vertexarrayobject_8hpp.html" title="VAO object OO wrapper using OpenGL 4.5 DSA features." alt="" coords="5,83,221,112"/>
+<area shape="rect" id="node5" href="$buffer_8hpp.html" title="mogl/buffer.hpp" alt="" coords="57,160,169,189"/>
+<area shape="rect" id="node7" href="$mogl_8hpp.html" title="mogl/mogl.hpp" alt="" coords="60,237,167,267"/>
 </map>

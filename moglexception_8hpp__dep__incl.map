@@ -1,10 +1,10 @@
 <map id="G" name="G">
-<area shape="rect" id="node3" href="$shaderexception_8hpp.html" title="/home/travis/build/Ryp/moGL/mogl/exception/shaderexception.hpp" alt="" coords="7,83,415,112"/>
-<area shape="rect" id="node5" href="$exception_8hpp.html" title="/home/travis/build/Ryp/moGL/mogl/exception.hpp" alt="" coords="176,160,485,189"/>
-<area shape="rect" id="node7" href="$debug_8inl.html" title="/home/travis/build/Ryp/moGL/mogl/debug.inl" alt="" coords="12,237,292,267"/>
-<area shape="rect" id="node11" href="$mogl_8hpp.html" title="/home/travis/build/Ryp/moGL/mogl/mogl.hpp" alt="" coords="191,469,471,499"/>
-<area shape="rect" id="node14" href="$shaderprogram_8inl.html" title="/home/travis/build/Ryp/moGL/mogl/shader/shaderprogram.inl" alt="" coords="371,237,744,267"/>
-<area shape="rect" id="node9" href="$debug_8hpp.html" title="/home/travis/build/Ryp/moGL/mogl/debug.hpp" alt="" coords="5,392,293,421"/>
-<area shape="rect" id="node16" href="$shaderprogram_8hpp.html" title="/home/travis/build/Ryp/moGL/mogl/shader/shaderprogram.hpp" alt="" coords="368,315,749,344"/>
-<area shape="rect" id="node18" href="$shader_8hpp.html" title="/home/travis/build/Ryp/moGL/mogl/shader.hpp" alt="" coords="391,392,681,421"/>
+<area shape="rect" id="node3" href="$exception_8hpp.html" title="mogl/exception.hpp" alt="" coords="91,160,224,189"/>
+<area shape="rect" id="node19" href="$shaderexception_8hpp.html" title="mogl/exception/shaderexception.hpp" alt="" coords="117,83,352,112"/>
+<area shape="rect" id="node5" href="$debug_8inl.html" title="mogl/debug.inl" alt="" coords="12,237,119,267"/>
+<area shape="rect" id="node9" href="$mogl_8hpp.html" title="mogl/mogl.hpp" alt="" coords="104,469,211,499"/>
+<area shape="rect" id="node12" href="$shaderprogram_8inl.html" title="mogl/shader/shaderprogram.inl" alt="" coords="197,237,397,267"/>
+<area shape="rect" id="node7" href="$debug_8hpp.html" title="mogl/debug.hpp" alt="" coords="5,392,120,421"/>
+<area shape="rect" id="node14" href="$shaderprogram_8hpp.html" title="mogl/shader/shaderprogram.hpp" alt="" coords="195,315,403,344"/>
+<area shape="rect" id="node16" href="$shader_8hpp.html" title="mogl/shader.hpp" alt="" coords="217,392,335,421"/>
 </map>

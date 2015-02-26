@@ -1,6 +1,6 @@
 <map id="G" name="G">
-<area shape="rect" id="node3" href="$shaderobject_8hpp.html" title="/home/travis/build/Ryp/moGL/mogl/shader/shaderobject.hpp" alt="" coords="5,83,376,112"/>
-<area shape="rect" id="node5" href="$shader_8hpp.html" title="/home/travis/build/Ryp/moGL/mogl/shader.hpp" alt="" coords="45,237,336,267"/>
-<area shape="rect" id="node9" href="$shaderprogram_8hpp.html" title="/home/travis/build/Ryp/moGL/mogl/shader/shaderprogram.hpp" alt="" coords="115,160,496,189"/>
-<area shape="rect" id="node7" href="$mogl_8hpp.html" title="/home/travis/build/Ryp/moGL/mogl/mogl.hpp" alt="" coords="51,315,331,344"/>
+<area shape="rect" id="node3" href="$shaderobject_8hpp.html" title="mogl/shader/shaderobject.hpp" alt="" coords="5,83,200,112"/>
+<area shape="rect" id="node5" href="$shader_8hpp.html" title="mogl/shader.hpp" alt="" coords="44,237,161,267"/>
+<area shape="rect" id="node9" href="$shaderprogram_8hpp.html" title="mogl/shader/shaderprogram.hpp" alt="" coords="69,160,277,189"/>
+<area shape="rect" id="node7" href="$mogl_8hpp.html" title="mogl/mogl.hpp" alt="" coords="49,315,156,344"/>
 </map>

@@ -1,5 +1,5 @@
 <map id="G" name="G">
-<area shape="rect" id="node3" href="$sampler_8hpp.html" title="/home/travis/build/Ryp/moGL/mogl/texture/sampler.hpp" alt="" coords="5,83,347,112"/>
-<area shape="rect" id="node5" href="$texture_8hpp.html" title="/home/travis/build/Ryp/moGL/mogl/texture.hpp" alt="" coords="29,160,323,189"/>
-<area shape="rect" id="node7" href="$mogl_8hpp.html" title="/home/travis/build/Ryp/moGL/mogl/mogl.hpp" alt="" coords="36,237,316,267"/>
+<area shape="rect" id="node3" href="$sampler_8hpp.html" title="mogl/texture/sampler.hpp" alt="" coords="5,83,173,112"/>
+<area shape="rect" id="node5" href="$texture_8hpp.html" title="mogl/texture.hpp" alt="" coords="31,160,148,189"/>
+<area shape="rect" id="node7" href="$mogl_8hpp.html" title="mogl/mogl.hpp" alt="" coords="36,237,143,267"/>
 </map>

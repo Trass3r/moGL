@@ -1,4 +1,4 @@
 <map id="G" name="G">
-<area shape="rect" id="node3" href="$handle_8hpp.html" title="GL Handle wrapper, base class to most mogl objects, templated on the handle type, because it is not a..." alt="" coords="39,83,156,112"/>
-<area shape="rect" id="node5" href="$queryobject_8inl.html" title="queryobject.inl" alt="" coords="180,83,287,112"/>
+<area shape="rect" id="node3" href="$handle_8hpp.html" title="GL Handle wrapper, base class to most mogl objects, templated on the handle type, because it is not a..." alt="" coords="5,83,123,112"/>
+<area shape="rect" id="node5" href="$queryobject_8inl.html" title="queryobject.inl" alt="" coords="147,83,253,112"/>
 </map>

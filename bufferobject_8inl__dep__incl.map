@@ -1,5 +1,5 @@
 <map id="G" name="G">
-<area shape="rect" id="node3" href="$bufferobject_8hpp.html" title="Buffer object OO wrapper using OpenGL 4.5 DSA features." alt="" coords="5,83,363,112"/>
-<area shape="rect" id="node5" href="$buffer_8hpp.html" title="/home/travis/build/Ryp/moGL/mogl/buffer.hpp" alt="" coords="41,160,327,189"/>
-<area shape="rect" id="node7" href="$mogl_8hpp.html" title="/home/travis/build/Ryp/moGL/mogl/mogl.hpp" alt="" coords="44,237,324,267"/>
+<area shape="rect" id="node3" href="$bufferobject_8hpp.html" title="Buffer object OO wrapper using OpenGL 4.5 DSA features." alt="" coords="5,83,189,112"/>
+<area shape="rect" id="node5" href="$buffer_8hpp.html" title="mogl/buffer.hpp" alt="" coords="41,160,153,189"/>
+<area shape="rect" id="node7" href="$mogl_8hpp.html" title="mogl/mogl.hpp" alt="" coords="44,237,151,267"/>
 </map>
