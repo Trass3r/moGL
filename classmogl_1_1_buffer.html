@@ -137,6 +137,8 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_buffer.html#ad3e6fc5f84f93edba9e75c87fba6490b">copySubData</a> (GLuint writeBuffer, GLintptr readOffset, GLintptr writeOffset, GLsizeiptr size)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_buffer.html#adba3f9016cb03e2ec354de9ebcaaeb2f">clearData</a> (GLenum internalformat, GLenum format, GLenum type, const void *data)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_buffer.html#ac4de3f42e134861b95351031df6bc045">clearSubData</a> (GLenum internalformat, GLintptr offset, GLsizeiptr size, GLenum format, GLenum type, const void *data)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_buffer.html#a54e06a0cde007227dd16d8505ee06300">invalidateData</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_buffer.html#ac07a4fdf717eb167160fe33da180b67a">invalidateSubData</a> (GLintptr offset, GLsizeiptr length)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_buffer.html#a19a86312e8a7a33c17d8d1ef12810bcb">map</a> (GLenum access)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_buffer.html#a42ce8f3e8b5e31aea88cfa470d0e0d7e">mapRange</a> (GLintptr offset, GLsizeiptr length, GLbitfield access)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_buffer.html#a0d5036cd144903b9e58f3ac8e79b2b1c">unmap</a> ()</td></tr>
@@ -619,6 +621,49 @@ template&lt;&gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a54e06a0cde007227dd16d8505ee06300"></a><!-- doxytag: member="mogl::Buffer::invalidateData" ref="a54e06a0cde007227dd16d8505ee06300" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classmogl_1_1_buffer.html#a54e06a0cde007227dd16d8505ee06300">mogl::Buffer::invalidateData</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td><code> [inline]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac07a4fdf717eb167160fe33da180b67a"></a><!-- doxytag: member="mogl::Buffer::invalidateSubData" ref="ac07a4fdf717eb167160fe33da180b67a" args="(GLintptr offset, GLsizeiptr length)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classmogl_1_1_buffer.html#ac07a4fdf717eb167160fe33da180b67a">mogl::Buffer::invalidateSubData</a> </td>
+          <td>(</td>
+          <td class="paramtype">GLintptr&#160;</td>
+          <td class="paramname"><em>offset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GLsizeiptr&#160;</td>
+          <td class="paramname"><em>length</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td><code> [inline]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a683fe39a53c82d3bb55484a9f0b2b293"></a><!-- doxytag: member="mogl::Buffer::isValid" ref="a683fe39a53c82d3bb55484a9f0b2b293" args="() const override final" -->
 <div class="memitem">
 <div class="memproto">
@@ -841,7 +886,7 @@ template&lt;&gt; </div>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Feb 28 2015 23:29:36 for moGL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Mar 2 2015 02:40:59 for moGL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>

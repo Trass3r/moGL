@@ -118,25 +118,27 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l00036"></a>00036         <span class="keywordtype">void</span>    <a class="code" href="classmogl_1_1_buffer.html#ad3e6fc5f84f93edba9e75c87fba6490b">copySubData</a>(GLuint writeBuffer, GLintptr readOffset, GLintptr writeOffset, GLsizeiptr size);
 <a name="l00037"></a>00037         <span class="keywordtype">void</span>    <a class="code" href="classmogl_1_1_buffer.html#adba3f9016cb03e2ec354de9ebcaaeb2f">clearData</a>(GLenum internalformat, GLenum format, GLenum type, <span class="keyword">const</span> <span class="keywordtype">void</span>* data);
 <a name="l00038"></a>00038         <span class="keywordtype">void</span>    <a class="code" href="classmogl_1_1_buffer.html#ac4de3f42e134861b95351031df6bc045">clearSubData</a>(GLenum internalformat, GLintptr offset, GLsizeiptr size, GLenum format, GLenum type, <span class="keyword">const</span> <span class="keywordtype">void</span>* data);
-<a name="l00039"></a>00039         <span class="keywordtype">void</span>*   <a class="code" href="classmogl_1_1_buffer.html#a19a86312e8a7a33c17d8d1ef12810bcb">map</a>(GLenum access);
-<a name="l00040"></a>00040         <span class="keywordtype">void</span>*   <a class="code" href="classmogl_1_1_buffer.html#a42ce8f3e8b5e31aea88cfa470d0e0d7e">mapRange</a>(GLintptr offset, GLsizeiptr length, GLbitfield access);
-<a name="l00041"></a>00041         <span class="keywordtype">bool</span>    <a class="code" href="classmogl_1_1_buffer.html#a0d5036cd144903b9e58f3ac8e79b2b1c">unmap</a>();
-<a name="l00042"></a>00042         <span class="keywordtype">void</span>    <a class="code" href="classmogl_1_1_buffer.html#a68b29c65303881b470f3c0fc7b331e8c">flushMappedRange</a>(GLintptr offset, GLsizeiptr length);
-<a name="l00043"></a>00043         <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; <span class="keywordtype">void</span> <span class="keyword">get</span>(GLenum property, T* value); <span class="comment">// Direct call to glGetNamedBufferParameter*v()</span>
-<a name="l00044"></a>00044         <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; T    <span class="keyword">get</span>(GLenum property);
-<a name="l00045"></a>00045         <span class="keywordtype">void</span>    <a class="code" href="classmogl_1_1_buffer.html#af6efde527e170878e8dcac792946a2ef">getPointerv</a>(GLenum property, <span class="keywordtype">void</span>** value);
-<a name="l00046"></a>00046         <span class="keywordtype">void</span>    <a class="code" href="classmogl_1_1_buffer.html#a83b73e781471fcbf621ba0a5b8682c58">getSubData</a>(GLintptr offset, GLsizeiptr size, <span class="keywordtype">void</span>* data);
-<a name="l00047"></a>00047         GLenum  <a class="code" href="classmogl_1_1_buffer.html#ac5b4ce42019cc2e23d54947fa4716d4d">getTarget</a>() <span class="keyword">const</span>;
-<a name="l00048"></a>00048         <span class="keywordtype">bool</span>    <a class="code" href="classmogl_1_1_buffer.html#a683fe39a53c82d3bb55484a9f0b2b293">isValid</a>() <span class="keyword">const</span> <span class="keyword">override</span> <span class="keyword">final</span>;
-<a name="l00049"></a>00049 
-<a name="l00050"></a>00050     <span class="keyword">private</span>:
-<a name="l00051"></a>00051         <span class="keyword">const</span> GLenum    _target;
-<a name="l00052"></a>00052     };
-<a name="l00053"></a>00053 }
-<a name="l00054"></a>00054 
-<a name="l00055"></a>00055 <span class="preprocessor">#include &quot;<a class="code" href="buffer_8inl.html">buffer.inl</a>&quot;</span>
+<a name="l00039"></a>00039         <span class="keywordtype">void</span>    <a class="code" href="classmogl_1_1_buffer.html#a54e06a0cde007227dd16d8505ee06300">invalidateData</a>();
+<a name="l00040"></a>00040         <span class="keywordtype">void</span>    <a class="code" href="classmogl_1_1_buffer.html#ac07a4fdf717eb167160fe33da180b67a">invalidateSubData</a>(GLintptr offset, GLsizeiptr length);
+<a name="l00041"></a>00041         <span class="keywordtype">void</span>*   <a class="code" href="classmogl_1_1_buffer.html#a19a86312e8a7a33c17d8d1ef12810bcb">map</a>(GLenum access);
+<a name="l00042"></a>00042         <span class="keywordtype">void</span>*   <a class="code" href="classmogl_1_1_buffer.html#a42ce8f3e8b5e31aea88cfa470d0e0d7e">mapRange</a>(GLintptr offset, GLsizeiptr length, GLbitfield access);
+<a name="l00043"></a>00043         <span class="keywordtype">bool</span>    <a class="code" href="classmogl_1_1_buffer.html#a0d5036cd144903b9e58f3ac8e79b2b1c">unmap</a>();
+<a name="l00044"></a>00044         <span class="keywordtype">void</span>    <a class="code" href="classmogl_1_1_buffer.html#a68b29c65303881b470f3c0fc7b331e8c">flushMappedRange</a>(GLintptr offset, GLsizeiptr length);
+<a name="l00045"></a>00045         <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; <span class="keywordtype">void</span> <span class="keyword">get</span>(GLenum property, T* value); <span class="comment">// Direct call to glGetNamedBufferParameter*v()</span>
+<a name="l00046"></a>00046         <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; T    <span class="keyword">get</span>(GLenum property);
+<a name="l00047"></a>00047         <span class="keywordtype">void</span>    <a class="code" href="classmogl_1_1_buffer.html#af6efde527e170878e8dcac792946a2ef">getPointerv</a>(GLenum property, <span class="keywordtype">void</span>** value);
+<a name="l00048"></a>00048         <span class="keywordtype">void</span>    <a class="code" href="classmogl_1_1_buffer.html#a83b73e781471fcbf621ba0a5b8682c58">getSubData</a>(GLintptr offset, GLsizeiptr size, <span class="keywordtype">void</span>* data);
+<a name="l00049"></a>00049         GLenum  <a class="code" href="classmogl_1_1_buffer.html#ac5b4ce42019cc2e23d54947fa4716d4d">getTarget</a>() <span class="keyword">const</span>;
+<a name="l00050"></a>00050         <span class="keywordtype">bool</span>    <a class="code" href="classmogl_1_1_buffer.html#a683fe39a53c82d3bb55484a9f0b2b293">isValid</a>() <span class="keyword">const</span> <span class="keyword">override</span> <span class="keyword">final</span>;
+<a name="l00051"></a>00051 
+<a name="l00052"></a>00052     <span class="keyword">private</span>:
+<a name="l00053"></a>00053         <span class="keyword">const</span> GLenum    _target;
+<a name="l00054"></a>00054     };
+<a name="l00055"></a>00055 }
 <a name="l00056"></a>00056 
-<a name="l00057"></a>00057 <span class="preprocessor">#endif // MOGL_BUFFER_INCLUDED</span>
+<a name="l00057"></a>00057 <span class="preprocessor">#include &quot;<a class="code" href="buffer_8inl.html">buffer.inl</a>&quot;</span>
+<a name="l00058"></a>00058 
+<a name="l00059"></a>00059 <span class="preprocessor">#endif // MOGL_BUFFER_INCLUDED</span>
 </pre></div></div><!-- contents -->
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
@@ -155,7 +157,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Feb 28 2015 23:29:36 for moGL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Mar 2 2015 02:40:59 for moGL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>
