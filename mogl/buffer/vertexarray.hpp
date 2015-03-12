@@ -26,7 +26,7 @@ namespace mogl
         VertexArray(const VertexArray& other) = delete;
         VertexArray& operator=(const VertexArray& other) = delete;
 
-        VertexArray(VertexArray&& other) = default;
+//      VertexArray(VertexArray&& other) = default;
 
     public:
         void    bind();

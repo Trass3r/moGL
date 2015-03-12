@@ -26,7 +26,7 @@ namespace mogl
         Buffer(const Buffer& other) = delete;
         Buffer& operator=(const Buffer& other) = delete;
 
-        Buffer(Buffer&& other) = default;
+//      Buffer(Buffer&& other) = default;
 
     public:
         void    bind();

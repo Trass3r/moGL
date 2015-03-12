@@ -30,7 +30,7 @@ namespace mogl
         Handle(const Handle& other) = delete;
         Handle& operator=(const Handle& other) = delete;
 
-        Handle(Handle&& other) noexcept : _handle(other._handle)
+        Handle(Handle&& other) : _handle(other._handle)
         {
             other._handle = 0;
         }

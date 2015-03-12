@@ -26,7 +26,7 @@ namespace mogl
         RenderBuffer(const RenderBuffer& other) = delete;
         RenderBuffer& operator=(const RenderBuffer& other) = delete;
 
-        RenderBuffer(RenderBuffer&& other) = default;
+//      RenderBuffer(RenderBuffer&& other) = default;
 
     public:
         void    setStorage(GLenum internalformat, GLsizei width, GLsizei height);

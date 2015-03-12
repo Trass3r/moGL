@@ -478,8 +478,8 @@ namespace mogl
 
         GLuint  uniformIdx = subUniform.uniform;
         GLuint  subroutineIdx = subUniform.subroutines.at(subroutine);
-        GLsizei size = routineMap.size();
-        GLuint  indices[size];
+        GLsizei size = (GLsizei)routineMap.size();
+        GLuint  indices[100];
 
         indices[uniformIdx] = subroutineIdx;
         glUniformSubroutinesuiv(static_cast<GLenum>(type), size, indices);

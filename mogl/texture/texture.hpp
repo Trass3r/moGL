@@ -26,7 +26,7 @@ namespace mogl
         Texture(const Texture& other) = delete;
         Texture& operator=(const Texture& other) = delete;
 
-        Texture(Texture&& other) = default;
+//      Texture(Texture&& other) = default;
 
     public:
         void    bind(GLuint unit);

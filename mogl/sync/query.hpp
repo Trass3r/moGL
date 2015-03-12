@@ -26,7 +26,7 @@ namespace mogl
         Query(const Query& other) = delete;
         Query& operator=(const Query& other) = delete;
 
-        Query(Query&& other) = default;
+//      Query(Query&& other) = default;
 
     public:
         void    begin();

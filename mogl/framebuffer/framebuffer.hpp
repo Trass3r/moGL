@@ -28,7 +28,7 @@ namespace mogl
         FrameBuffer(const FrameBuffer& other) = delete;
         FrameBuffer& operator=(const FrameBuffer& other) = delete;
 
-        FrameBuffer(FrameBuffer&& other) = default;
+//      FrameBuffer(FrameBuffer&& other) = default;
 
     public:
         void    bind(GLenum target);
