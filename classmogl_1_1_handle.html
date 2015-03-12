@@ -119,7 +119,7 @@ Collaboration diagram for mogl::Handle&lt; T &gt;:</div>
 <table class="memberdecls">
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_handle.html#aaa2a88838f8911118044c3296f6be831">Handle</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_handle.html#a1323e161390514ba0156ad3e3cc36556">Handle</a> (GLenum identifier=GL_NONE)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_handle.html#ab292db683fde7200bd761bc76220f3ea">~Handle</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_handle.html#ad6358ba1f7c73345d35c69090d760551">Handle</a> (const <a class="el" href="classmogl_1_1_handle.html">Handle</a> &amp;other)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmogl_1_1_handle.html">Handle</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_handle.html#ac6b68625385696bf931c5c72d67041a0">operator=</a> (const <a class="el" href="classmogl_1_1_handle.html">Handle</a> &amp;other)</td></tr>
@@ -129,12 +129,13 @@ Public Member Functions</h2></td></tr>
 <tr><td colspan="2"><h2><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_handle.html#afab3ec977388c5c0f1e6df0b6a75121b">_handle</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const GLenum&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmogl_1_1_handle.html#a88a239f43c70168d1c3fea6b40950fea">_identifier</a></td></tr>
 </table>
 <h3>template&lt;class T = GLuint&gt;<br/>
  class mogl::Handle&lt; T &gt;</h3>
 
 <hr/><h2>Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="aaa2a88838f8911118044c3296f6be831"></a><!-- doxytag: member="mogl::Handle::Handle" ref="aaa2a88838f8911118044c3296f6be831" args="()" -->
+<a class="anchor" id="a1323e161390514ba0156ad3e3cc36556"></a><!-- doxytag: member="mogl::Handle::Handle" ref="a1323e161390514ba0156ad3e3cc36556" args="(GLenum identifier=GL_NONE)" -->
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -143,7 +144,8 @@ template&lt;class T = GLuint&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="classmogl_1_1_handle.html">mogl::Handle</a>&lt; T &gt;::<a class="el" href="classmogl_1_1_handle.html">Handle</a> </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">GLenum&#160;</td>
+          <td class="paramname"><em>identifier</em> = <code>GL_NONE</code></td><td>)</td>
           <td><code> [inline]</code></td>
         </tr>
       </table>
@@ -243,7 +245,7 @@ template&lt;class T = GLuint&gt; </div>
 </div>
 <div class="memdoc">
 
-<p>Implemented in <a class="el" href="classmogl_1_1_shader_program.html#af1fb74be40e0f32e5e54c787be0bc8bc">mogl::ShaderProgram</a>, <a class="el" href="classmogl_1_1_buffer.html#a683fe39a53c82d3bb55484a9f0b2b293">mogl::Buffer</a>, <a class="el" href="classmogl_1_1_shader.html#ae379e82c2566aef209e4ba8ce2884ac5">mogl::Shader</a>, <a class="el" href="classmogl_1_1_vertex_array.html#ab9a367000c1b0100085af9d5ffecd0d1">mogl::VertexArray</a>, <a class="el" href="classmogl_1_1_texture.html#a84f5e7c159816b6c2a7e124c0fc1692c">mogl::Texture</a>, <a class="el" href="classmogl_1_1_frame_buffer.html#adca4450be26257c982a0a7536b080352">mogl::FrameBuffer</a>, <a class="el" href="classmogl_1_1_query.html#ac9ab61b7d87d7b973636a8f1f987ddec">mogl::Query</a>, <a class="el" href="classmogl_1_1_render_buffer.html#ab5fb6730ffcae5b32e54c5457c92f5a5">mogl::RenderBuffer</a>, <a class="el" href="classmogl_1_1_sampler.html#a0e952fb40de227b9f04157670308a50a">mogl::Sampler</a>, <a class="el" href="classmogl_1_1_program_pipeline.html#a008a0a792e70447282cbf30464589d0a">mogl::ProgramPipeline</a>, <a class="el" href="classmogl_1_1_fence.html#ae57bf177e04129f95b1e83635f053af9">mogl::Fence</a>, and <a class="el" href="classmogl_1_1_transform_feedback.html#ae49f19f08f67b93fe7748efeeee1b2c8">mogl::TransformFeedback</a>.</p>
+<p>Implemented in <a class="el" href="classmogl_1_1_texture.html#a84f5e7c159816b6c2a7e124c0fc1692c">mogl::Texture</a>, <a class="el" href="classmogl_1_1_shader_program.html#af1fb74be40e0f32e5e54c787be0bc8bc">mogl::ShaderProgram</a>, <a class="el" href="classmogl_1_1_buffer.html#a683fe39a53c82d3bb55484a9f0b2b293">mogl::Buffer</a>, <a class="el" href="classmogl_1_1_shader.html#ae379e82c2566aef209e4ba8ce2884ac5">mogl::Shader</a>, <a class="el" href="classmogl_1_1_vertex_array.html#ab9a367000c1b0100085af9d5ffecd0d1">mogl::VertexArray</a>, <a class="el" href="classmogl_1_1_frame_buffer.html#adca4450be26257c982a0a7536b080352">mogl::FrameBuffer</a>, <a class="el" href="classmogl_1_1_query.html#ac9ab61b7d87d7b973636a8f1f987ddec">mogl::Query</a>, <a class="el" href="classmogl_1_1_render_buffer.html#ab5fb6730ffcae5b32e54c5457c92f5a5">mogl::RenderBuffer</a>, <a class="el" href="classmogl_1_1_sampler.html#a0e952fb40de227b9f04157670308a50a">mogl::Sampler</a>, <a class="el" href="classmogl_1_1_program_pipeline.html#a008a0a792e70447282cbf30464589d0a">mogl::ProgramPipeline</a>, <a class="el" href="classmogl_1_1_fence.html#ae57bf177e04129f95b1e83635f053af9">mogl::Fence</a>, and <a class="el" href="classmogl_1_1_transform_feedback.html#ae49f19f08f67b93fe7748efeeee1b2c8">mogl::TransformFeedback</a>.</p>
 
 </div>
 </div>
@@ -282,6 +284,21 @@ template&lt;class T = GLuint&gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a88a239f43c70168d1c3fea6b40950fea"></a><!-- doxytag: member="mogl::Handle::_identifier" ref="a88a239f43c70168d1c3fea6b40950fea" args="" -->
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T = GLuint&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">const GLenum <a class="el" href="classmogl_1_1_handle.html">mogl::Handle</a>&lt; T &gt;::<a class="el" href="classmogl_1_1_handle.html#a88a239f43c70168d1c3fea6b40950fea">_identifier</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="handle_8hpp_source.html">handle.hpp</a></li>
 </ul>
@@ -303,7 +320,7 @@ template&lt;class T = GLuint&gt; </div>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Mar 2 2015 02:40:59 for moGL by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Mar 12 2015 14:07:09 for moGL by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>

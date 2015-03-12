@@ -1,7 +1,7 @@
 <map id="G" name="G">
 <area shape="rect" id="node3" href="$handle_8hpp.html" title="GL Handle wrapper, base class to most mogl objects, templated on the handle type, because it is not a..." alt="" coords="204,160,321,189"/>
 <area shape="rect" id="node5" href="$renderbuffer_8hpp.html" title="RenderBuffer object OO wrapper using OpenGL 4.5 DSA features." alt="" coords="5,83,227,112"/>
-<area shape="rect" id="node10" href="$texture_8hpp.html" title="Texture object OO wrapper using OpenGL 4.5 DSA features." alt="" coords="301,83,464,112"/>
+<area shape="rect" id="node10" href="$texture_8hpp.html" title="Texture object OO wrapper using OpenGL 4.5 DSA features TODO glGetTextureLevelParameterfv and GetText..." alt="" coords="301,83,464,112"/>
 <area shape="rect" id="node15" href="$framebuffer_8inl.html" title="framebuffer.inl" alt="" coords="488,83,592,112"/>
 <area shape="rect" id="node8" href="$renderbuffer_8inl.html" title="renderbuffer.inl" alt="" coords="63,160,169,189"/>
 <area shape="rect" id="node13" href="$texture_8inl.html" title="texture.inl" alt="" coords="345,160,423,189"/>

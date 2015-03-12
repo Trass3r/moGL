@@ -4,5 +4,8 @@ var searchData=
   ['cleardata',['clearData',['../classmogl_1_1_buffer.html#adba3f9016cb03e2ec354de9ebcaaeb2f',1,'mogl::Buffer']]],
   ['clearsubdata',['clearSubData',['../classmogl_1_1_buffer.html#ac4de3f42e134861b95351031df6bc045',1,'mogl::Buffer']]],
   ['compile',['compile',['../classmogl_1_1_shader.html#ae088b575a5864b0725175101a251f68f',1,'mogl::Shader']]],
-  ['copysubdata',['copySubData',['../classmogl_1_1_buffer.html#ad3e6fc5f84f93edba9e75c87fba6490b',1,'mogl::Buffer']]]
+  ['copysubdata',['copySubData',['../classmogl_1_1_buffer.html#ad3e6fc5f84f93edba9e75c87fba6490b',1,'mogl::Buffer']]],
+  ['copysubimage1d',['copySubImage1D',['../classmogl_1_1_texture.html#a1eaf0941e46637c77f3c041ecc4e5331',1,'mogl::Texture']]],
+  ['copysubimage2d',['copySubImage2D',['../classmogl_1_1_texture.html#a6bc434b0f46cb50ee61fcfba75c14c4e',1,'mogl::Texture']]],
+  ['copysubimage3d',['copySubImage3D',['../classmogl_1_1_texture.html#a30c41e91525153e48c663037e0bfa250',1,'mogl::Texture']]]
 ];

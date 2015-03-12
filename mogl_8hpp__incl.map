@@ -8,7 +8,7 @@
 <area shape="rect" id="node32" href="$shaderexception_8hpp.html" title="mogl/exception/shaderexception.hpp" alt="" coords="2116,237,2351,267"/>
 <area shape="rect" id="node35" href="$framebuffer_8hpp.html" title="Framebuffer object OO wrapper using OpenGL 4.5 DSA features." alt="" coords="748,83,961,112"/>
 <area shape="rect" id="node38" href="$renderbuffer_8hpp.html" title="RenderBuffer object OO wrapper using OpenGL 4.5 DSA features." alt="" coords="552,160,773,189"/>
-<area shape="rect" id="node43" href="$texture_8hpp.html" title="Texture object OO wrapper using OpenGL 4.5 DSA features." alt="" coords="1280,160,1443,189"/>
+<area shape="rect" id="node43" href="$texture_8hpp.html" title="Texture object OO wrapper using OpenGL 4.5 DSA features TODO glGetTextureLevelParameterfv and GetText..." alt="" coords="1280,160,1443,189"/>
 <area shape="rect" id="node52" href="$programpipeline_8hpp.html" title="mogl/shader/programpipeline.hpp" alt="" coords="1413,83,1627,112"/>
 <area shape="rect" id="node57" href="$shader_8hpp.html" title="mogl/shader/shader.hpp" alt="" coords="1987,160,2147,189"/>
 <area shape="rect" id="node68" href="$shaderprogram_8hpp.html" title="mogl/shader/shaderprogram.hpp" alt="" coords="1867,83,2075,112"/>
