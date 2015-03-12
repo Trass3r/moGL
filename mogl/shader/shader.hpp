@@ -20,13 +20,14 @@ namespace mogl
     class Shader : public Handle<GLuint>
     {
     public:
-        enum class Type {
-            VertexShader                = GL_VERTEX_SHADER,
-            TesselationControlShader    = GL_TESS_CONTROL_SHADER,
-            TesselationEvaluationShader = GL_TESS_EVALUATION_SHADER,
-            GeometryShader              = GL_GEOMETRY_SHADER,
-            FragmentShader              = GL_FRAGMENT_SHADER,
-            ComputeShader               = GL_COMPUTE_SHADER
+        enum class Type : unsigned int
+        {
+            VertexShader                = (unsigned int)GL_VERTEX_SHADER,
+            TesselationControlShader    = (unsigned int)GL_TESS_CONTROL_SHADER,
+            TesselationEvaluationShader = (unsigned int)GL_TESS_EVALUATION_SHADER,
+            GeometryShader              = (unsigned int)GL_GEOMETRY_SHADER,
+            FragmentShader              = (unsigned int)GL_FRAGMENT_SHADER,
+            ComputeShader               = (unsigned int)GL_COMPUTE_SHADER
         };
 
     public:
